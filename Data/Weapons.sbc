@@ -2,57 +2,77 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Weapons>      
         <!-- Small Grid Gatling Gun Fixed -->
+        <!--
+            Changes:
+            - Burst length to 150 from 180
+            - Shot deviation to 0.25 from 0.15
+            - Reload to 1.5 seconds from 4 seconds (irrelevant)
+            - Fire rate to 900 from 700
+            - Muzzle flash duration to 25 milliseconds from 40
+        -->
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>GatlingGun</SubtypeId>
             </Id>
-            <ProjectileAmmoData RateOfFire="700" ShootSoundName="WepShipGatlingShot" ShotsInBurst="180" />
+            <ProjectileAmmoData RateOfFire="900" ShootSoundName="WepShipGatlingShot" ShotsInBurst="150" />
             <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-            <DeviateShotAngle>0.15</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.15</DeviateShotAngleAiming>
-            <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+            <DeviateShotAngle>0.25</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.25</DeviateShotAngleAiming>
+            <MuzzleFlashLifeSpan>25</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
 			
 			<Effects>
                 <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash_Large" Loop="true" InstantStop="true" OffsetX="0" OffsetY="0" OffsetZ="0.5" />
+                <!--
                 <Effect Action="Shoot" Dummy="None" Particle="Smoke_Autocannon" Loop="true" InstantStop="false"
 				OffsetX="0.09" OffsetY="0" OffsetZ="-0.6"
 				ParticleBirthStart="40" ParticleBirthMin="0" ParticleBirthMax="50" ParticleBirthDecrease="3" ParticleBirthIncrease="20" />
+                -->
             </Effects>
 
             <AmmoMagazines>
                 <AmmoMagazine Subtype="NATO_25x184mm" />
             </AmmoMagazines>
-            <ReloadTime>4000</ReloadTime>
+            <ReloadTime>1500</ReloadTime>
         </Weapon>
 
         <!-- Small Grid Warfare Gatling Gun Fixed -->
+        <!--
+            Changes:
+            - Burst length to 150 from 180
+            - Shot deviation to 0.25 from 0.15
+            - Reload to 1.5 seconds from 4 seconds (irrelevant)
+            - Fire rate to 900 from 700
+            - Muzzle flash duration to 25 milliseconds from 40
+        -->
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>GatlingGunWarfare</SubtypeId>
             </Id>
-            <ProjectileAmmoData RateOfFire="700" ShootSoundName="WepShipGatlingShot" ShotsInBurst="180" />
+            <ProjectileAmmoData RateOfFire="900" ShootSoundName="WepShipGatlingShot" ShotsInBurst="150" />
             <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-            <DeviateShotAngle>0.15</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.15</DeviateShotAngleAiming>
-            <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+            <DeviateShotAngle>0.25</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.25</DeviateShotAngleAiming>
+            <MuzzleFlashLifeSpan>25</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
 
             <Effects>
                 <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash_Large" Loop="true" InstantStop="true" OffsetX="0" OffsetY="0" OffsetZ="0.5" />
+                <!--
                 <Effect Action="Shoot" Dummy="None" Particle="Smoke_Autocannon" Loop="true" InstantStop="false" 
 				OffsetX="0.09" OffsetY="0" OffsetZ="-1"
 				ParticleBirthStart="40" ParticleBirthMin="0" ParticleBirthMax="50" ParticleBirthDecrease="3" ParticleBirthIncrease="20" />
+                -->
             </Effects>
 
             <AmmoMagazines>
                 <AmmoMagazine Subtype="NATO_25x184mm" />
             </AmmoMagazines>
-            <ReloadTime>4000</ReloadTime>
+            <ReloadTime>1500</ReloadTime>
         </Weapon>
 
         <!-- Small Grid Gatling Turret -->

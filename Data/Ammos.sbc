@@ -2,24 +2,32 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Ammos>
 		<!-- Gatling Gun Round -->
+        <!--
+            Changes:
+            - Velocity to 500 from 400
+            - Max range to 1000 from 800
+            - Grid damage to 50 from 90 (28% DPS loss w/rof change)
+            - Player damage to 25 from 33 (~6% increase to TTK)
+            - Headshot bonus removed
+        -->
 		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
                 <SubtypeId>LargeCaliber</SubtypeId>
             </Id>
             <BasicProperties>
-                <DesiredSpeed>400</DesiredSpeed>
+                <DesiredSpeed>500</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
-                <MaxTrajectory>800</MaxTrajectory>
+                <MaxTrajectory>1000</MaxTrajectory>
                 <BackkickForce>200</BackkickForce>
                 <PhysicalMaterial>GunBullet</PhysicalMaterial>
             </BasicProperties>
             <ProjectileProperties>
                 <ProjectileTrailScale>0.1</ProjectileTrailScale>
                 <ProjectileHitImpulse>2</ProjectileHitImpulse>
-                <ProjectileMassDamage>90</ProjectileMassDamage>
-                <ProjectileHealthDamage>33</ProjectileHealthDamage>
-                <HeadShot>true</HeadShot>
+                <ProjectileMassDamage>50</ProjectileMassDamage>
+                <ProjectileHealthDamage>25</ProjectileHealthDamage>
+                <HeadShot>false</HeadShot>
             </ProjectileProperties>
         </Ammo>
 		

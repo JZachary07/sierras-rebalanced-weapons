@@ -2,6 +2,10 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Ammos>
 		<!-- Gatling Gun Box -->
+        <!-- 
+            Changes:
+            - Capacity to 150 from 140
+        -->
 		<AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
@@ -18,7 +22,7 @@
             <Volume>16</Volume>
             <Model>Models\Weapons\Ammo_Box.mwm</Model>
             <PhysicalMaterial>Ammo</PhysicalMaterial>
-            <Capacity>140</Capacity>
+            <Capacity>150</Capacity>
             <AmmoDefinitionId Subtype="LargeCaliber" />
 
             <MinimumOfferAmount>50</MinimumOfferAmount>
