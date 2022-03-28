@@ -4,8 +4,8 @@
 		<!-- Gatling Gun Round -->
         <!--
             Changes:
-            - Velocity to 500 from 400
-            - Max range to 1000 from 800
+            - Velocity to 500 m/s from 400
+            - Max range to 1000 meters from 800
             - Grid damage to 50 from 90 (28% DPS loss w/rof change)
             - Player damage to 25 from 33 (~6% increase to TTK)
             - Headshot bonus removed
@@ -32,13 +32,20 @@
         </Ammo>
 		
 		<!-- Missile -->
+        <!--
+            Changes:
+            - Splash radius to 5 meters from 4
+            - Top speed to 400 m/s from 200
+            - Launch speed to 50 m/s from 100
+            - Acceleration to 250 m/s^2 from 600
+        -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
                 <SubtypeId>Missile</SubtypeId>
             </Id>
             <BasicProperties>
-                <DesiredSpeed>200</DesiredSpeed>
+                <DesiredSpeed>400</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
                 <MaxTrajectory>800</MaxTrajectory>
                 <IsExplosive>true</IsExplosive>
@@ -47,10 +54,10 @@
             </BasicProperties>
             <MissileProperties>
                 <MissileMass>45</MissileMass>
-                <MissileExplosionRadius>4</MissileExplosionRadius>
+                <MissileExplosionRadius>5</MissileExplosionRadius>
                 <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
-                <MissileAcceleration>600</MissileAcceleration>
-                <MissileInitialSpeed>100</MissileInitialSpeed>
+                <MissileAcceleration>250</MissileAcceleration>
+                <MissileInitialSpeed>50</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileExplosionDamage>500</MissileExplosionDamage>
                 <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>

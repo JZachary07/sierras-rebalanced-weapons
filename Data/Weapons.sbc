@@ -4,10 +4,10 @@
         <!-- Small Grid Gatling Gun Fixed -->
         <!--
             Changes:
-            - Burst length to 150 from 180
-            - Shot deviation to 0.25 from 0.15
+            - Burst length to 150 rounds from 180
+            - Shot deviation to 0.25 degrees from 0.15
             - Reload to 1.5 seconds from 4 seconds (irrelevant)
-            - Fire rate to 900 from 700
+            - Fire rate to 900 RPM from 700
             - Muzzle flash duration to 25 milliseconds from 40
             - Disabled muzzle smoke
         -->
@@ -42,10 +42,10 @@
         <!-- Small Grid Warfare Gatling Gun Fixed -->
         <!--
             Changes:
-            - Burst length to 150 from 180
-            - Shot deviation to 0.25 from 0.15
+            - Burst length to 150 rounds from 180
+            - Shot deviation to 0.25 degrees from 0.15
             - Reload to 1.5 seconds from 4 seconds (irrelevant)
-            - Fire rate to 900 from 700
+            - Fire rate to 900 RPM from 700
             - Muzzle flash duration to 25 milliseconds from 40
             - Disabled muzzle smoke
         -->
@@ -80,10 +80,10 @@
         <!-- Small Grid Gatling Turret -->
         <!--
             Changes:
-            - Burst length to 150 from 180
-            - Shot deviation to 0.5 from 0.3
+            - Burst length to 150 rounds from 180
+            - Shot deviation to 0.5 degrees from 0.3
             - Reload to 2 seconds from 6 seconds (irrelevant)
-            - Fire rate to 900 from 700
+            - Fire rate to 900 RPM from 700
             - Muzzle flash duration to 25 milliseconds from 40
             - Disabled muzzle smoke
         -->
@@ -112,10 +112,10 @@
         <!-- Large Grid Gatling Turret -->
         <!--
             Changes:
-            - Burst length to 150 from 180
-            - Shot deviation to 0.35 from 0.3
+            - Burst length to 150 rounds from 180
+            - Shot deviation to 0.35 degrees from 0.3
             - Reload to 2 seconds from 4 seconds (irrelevant)
-            - Fire rate to 900 from 700
+            - Fire rate to 900 RPM from 700
             - Muzzle flash duration to 25 milliseconds from 40
             - Disabled muzzle smoke
         -->
@@ -143,65 +143,114 @@
         </Weapon>
         
         <!-- Small Grid Standard Rocket Launcher -->
+        <!--
+            Changes:
+            - Fire rate to 300 RPM from 60
+            - Burst length to 4 from 0
+            - Shot deviation to 0.3 degrees from 0.1
+            - Reload time to 8 seconds from 2
+        -->
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>SmallMissileLauncher</SubtypeId>
             </Id>
-            <MissileAmmoData RateOfFire="60" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="0" />
-            <DeviateShotAngle>0.1</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.1</DeviateShotAngleAiming>
+            <MissileAmmoData RateOfFire="300" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="4" />
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="Missile200mm" />
+            </AmmoMagazines>
+            <ReloadTime>8000</ReloadTime>
+        </Weapon>
+
+        <!-- Small Grid Reloadable Rocket Launcher -->
+        <!-- NEW DEFINITION
+            Changes:
+            - Fire rate to 150 RPM from 60
+            - Burst length to 4 from 0
+            - Shot deviation to 0.2 degrees from 0.1
+            - Reload time to 4 seconds from 2
+        -->
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>SmallMissileLauncherReload</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="150" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="4" />
+            <DeviateShotAngle>0.2</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.2</DeviateShotAngleAiming>
+            <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="Missile200mm" />
+            </AmmoMagazines>
+            <ReloadTime>4000</ReloadTime>
+        </Weapon>
+
+        <!-- Large Grid Rocket Launcher -->
+        <!--
+            Changes:
+            - Fire rate to 360 RPM from 120
+            - Burst length to 8 rounds from 19
+            - Shot deviation to 0.5 degrees from 0.1
+            - Reload time to 5 seconds from 4
+        -->
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>LargeMissileLauncher</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="360" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="8" />
+            <DeviateShotAngle>0.5</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
+            <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="Missile200mm" />
+            </AmmoMagazines>
+            <ReloadTime>5000</ReloadTime>
+        </Weapon>
+        
+        <!-- Small Grid Rocket Turret -->
+        <!--
+            Changes:
+            - Fire rate to 200 RPM from 90
+            - Shot deviation to 0.25 degrees from 0.5
+            - Reload time to 2 seconds from 6
+        -->
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>SmallMissileTurret</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="200" ShootSoundName="WepTurretMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.25</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.25</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>
             <ReloadTime>2000</ReloadTime>
         </Weapon>
 
-        <!-- Large Grid Rocket Launcher -->
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>LargeMissileLauncher</SubtypeId>
-            </Id>
-            <MissileAmmoData RateOfFire="120" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="19" />
-            <DeviateShotAngle>0.1</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.1</DeviateShotAngleAiming>
-            <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Missile200mm" />
-            </AmmoMagazines>
-            <ReloadTime>4000</ReloadTime>
-        </Weapon>
-        
-        <!-- Small Grid Rocket Turret -->
-        <Weapon>
-            <Id>
-                <TypeId>WeaponDefinition</TypeId>
-                <SubtypeId>SmallMissileTurret</SubtypeId>
-            </Id>
-            <MissileAmmoData RateOfFire="90" ShootSoundName="WepTurretMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="2" />
-            <DeviateShotAngle>0.5</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
-            <AmmoMagazines>
-                <AmmoMagazine Subtype="Missile200mm" />
-            </AmmoMagazines>
-            <ReloadTime>6000</ReloadTime>
-        </Weapon>
-
         <!-- Large Grid Rocket Turret -->
+        <!--
+            Changes:
+            - Fire rate to 360 RPM from 90
+            - Shot deviation to 0.35 from 0.5
+            - Reload time to 5 seconds from 4
+        -->
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>LargeMissileTurret</SubtypeId>
             </Id>
-            <MissileAmmoData RateOfFire="90" ShootSoundName="WepTurretMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="6" />
-            <DeviateShotAngle>0.5</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
+            <MissileAmmoData RateOfFire="360" ShootSoundName="WepTurretMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="6" />
+            <DeviateShotAngle>0.35</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.35</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>
-            <ReloadTime>4000</ReloadTime>
+            <ReloadTime>5000</ReloadTime>
         </Weapon>
 
         <!-- Small Grid Autocannon Fixed -->

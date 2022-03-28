@@ -301,6 +301,10 @@
         </Definition>
 
         <!-- Small Grid Reloadable Rocket Launcher Fixed -->
+        <!--
+            Changes:
+            - WeaponDefinitionID Subtype changed to new SmallMissileLauncherReload from SmallMissileLauncher
+        -->
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallMissileLauncherReload</TypeId>
@@ -344,7 +348,7 @@
             <BuildTimeSeconds>15</BuildTimeSeconds>
             <InventoryMaxVolume>0.24</InventoryMaxVolume>
             <ResourceSinkGroup>Defense</ResourceSinkGroup>
-            <WeaponDefinitionId Subtype="SmallMissileLauncher" />
+            <WeaponDefinitionId Subtype="SmallMissileLauncherReload" />
             <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
             <DamagedSound>ParticleWeapExpl</DamagedSound>
             <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
@@ -414,6 +418,12 @@
         </Definition>
 
         <!-- Small Grid Missile Turret -->
+        <!--
+            Changes:
+            - Max targeting range to 500 meters from 600
+            - Traverse speed to 0.002 from 0.0015
+            - Idle rotation disabled by default
+        -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
                 <TypeId>LargeMissileTurret</TypeId>
@@ -482,10 +492,10 @@
             <MaxElevationDegrees>180</MaxElevationDegrees>
             <MinAzimuthDegrees>-180</MinAzimuthDegrees>
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-            <IdleRotation>true</IdleRotation>
-            <MaxRangeMeters>600</MaxRangeMeters>
-            <RotationSpeed>0.0015</RotationSpeed>
-            <ElevationSpeed>0.0015 </ElevationSpeed>
+            <IdleRotation>false</IdleRotation>
+            <MaxRangeMeters>500</MaxRangeMeters>
+            <RotationSpeed>0.002</RotationSpeed>
+            <ElevationSpeed>0.002</ElevationSpeed>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
             <MinFov>0.1</MinFov>
             <MaxFov>1.04719755</MaxFov>
@@ -505,6 +515,11 @@
         </Definition>
 
         <!-- Large Grid Missile Turret -->
+        <!--
+            Changes:
+            - Traverse speed to 0.0015 from 0.001
+            - Idle rotation disabled by default
+        -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
                 <TypeId>LargeMissileTurret</TypeId>
@@ -570,10 +585,10 @@
             <MaxElevationDegrees>90</MaxElevationDegrees>
             <MinAzimuthDegrees>-180</MinAzimuthDegrees>
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-            <IdleRotation>true</IdleRotation>
+            <IdleRotation>false</IdleRotation>
             <MaxRangeMeters>800</MaxRangeMeters>
-            <RotationSpeed>0.001</RotationSpeed>
-            <ElevationSpeed>0.001 </ElevationSpeed>
+            <RotationSpeed>0.0015</RotationSpeed>
+            <ElevationSpeed>0.0015 </ElevationSpeed>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
             <MinFov>0.1</MinFov>
             <MaxFov>1.04719755</MaxFov>
