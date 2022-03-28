@@ -57,6 +57,12 @@
         </Definition>
         
         <!-- Small Grid Gatling Turret -->
+        <!--
+            Changes:
+            - Targeting range to 500 meters from 600
+            - Traverse speed to 0.003 from 0.002
+            - Idle movement disabled by default
+        -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
                 <TypeId>LargeGatlingTurret</TypeId>
@@ -123,10 +129,10 @@
             <MaxElevationDegrees>180</MaxElevationDegrees>
             <MinAzimuthDegrees>-180</MinAzimuthDegrees>
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-            <RotationSpeed>0.002</RotationSpeed>
-            <ElevationSpeed>0.002 </ElevationSpeed>
-            <IdleRotation>true</IdleRotation>
-            <MaxRangeMeters>600</MaxRangeMeters>
+            <RotationSpeed>0.003</RotationSpeed>
+            <ElevationSpeed>0.003 </ElevationSpeed>
+            <IdleRotation>false</IdleRotation>
+            <MaxRangeMeters>500</MaxRangeMeters>
             <MinFov>0.1</MinFov>
             <MaxFov>1.04719755</MaxFov>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -146,6 +152,11 @@
         </Definition>
 
         <!-- Large Grid Gatling Turret -->
+        <!--
+            Changes:
+            - Traverse speed to 0.0025 from 0.0015
+            - Idle movement disabled by default
+        -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
                 <TypeId>LargeGatlingTurret</TypeId>
@@ -209,9 +220,9 @@
             <MaxElevationDegrees>90</MaxElevationDegrees>
             <MinAzimuthDegrees>-180</MinAzimuthDegrees>
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-            <RotationSpeed>0.0015</RotationSpeed>
-            <ElevationSpeed>0.0015 </ElevationSpeed>
-            <IdleRotation>true</IdleRotation>
+            <RotationSpeed>0.0025</RotationSpeed>
+            <ElevationSpeed>0.0025 </ElevationSpeed>
+            <IdleRotation>false</IdleRotation>
             <MaxRangeMeters>800</MaxRangeMeters>
             <MinFov>0.1</MinFov>
             <MaxFov>1.04719755</MaxFov>
