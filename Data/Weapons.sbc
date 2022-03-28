@@ -1,6 +1,22 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Weapons>
+        <!-- Small Grid Standard Rocket Launcher-->
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>SmallMissileLauncher</SubtypeId>
+            </Id>
+            <MissileAmmoData RateOfFire="60" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="0" />
+            <DeviateShotAngle>0.1</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.1</DeviateShotAngleAiming>
+            <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="Missile200mm" />
+            </AmmoMagazines>
+            <ReloadTime>2000</ReloadTime>
+        </Weapon>
 
+        
     </Weapons>
 </Definitions>
