@@ -1,6 +1,35 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <EntityComponents>
+        <!-- Small Railgun Capacitor-->
+        <EntityComponent xsi:type="MyObjectBuilder_EntityCapacitorComponentDefinition">
+            <Id>
+                <TypeId>EntityCapacitorComponent</TypeId>
+                <SubtypeId>SmallRailgun</SubtypeId>
+            </Id>
+            <Capacity>0.016</Capacity>
+            <RechargeDraw>3.6</RechargeDraw>
+        </EntityComponent>
+        
+        <!-- Large Railgun Capacitor-->
+        <EntityComponent xsi:type="MyObjectBuilder_EntityCapacitorComponentDefinition">
+            <Id>
+                <TypeId>EntityCapacitorComponent</TypeId>
+                <SubtypeId>LargeRailgun</SubtypeId>
+            </Id>
+            <Capacity>0.5</Capacity>
+            <RechargeDraw>38</RechargeDraw>
+        </EntityComponent>
+
+        <!-- Target Detection Range-->
+        <EntityComponent xsi:type="MyObjectBuilder_TargetFocusComponentDefinition">
+            <Id>
+                <TypeId>TargetFocusComponent</TypeId>
+                <SubtypeId>Character</SubtypeId>
+            </Id>
+            <FocusSearchMaxDistance>2000</FocusSearchMaxDistance>
+            <AngularToleranceFromCrosshair>25</AngularToleranceFromCrosshair>
+        </EntityComponent>
 
     </EntityComponents>
 </Definitions>
