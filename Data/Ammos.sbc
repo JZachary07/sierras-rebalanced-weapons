@@ -39,6 +39,7 @@
             - Top speed to 400 m/s from 200
             - Launch speed to 50 m/s from 100
             - Acceleration to 250 m/s^2 from 600
+            - Gravity enabled
         -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
@@ -62,6 +63,7 @@
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileExplosionDamage>800</MissileExplosionDamage>
                 <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
+                <MissileGravityEnabled>true</MissileGravityEnabled>
             </MissileProperties>
         </Ammo>
 		
@@ -96,6 +98,14 @@
         </Ammo>
 
 		<!-- Assault Cannon Shell -->
+        <!--
+            Changes:
+            - Projectile max range to 1600 meters from 1400
+            - Projectile damage to 1500 from 4000
+            - Projectile explosion FX disabled
+            - Explosion FX radius to 1.5 meters from 2
+            
+        -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
@@ -104,33 +114,40 @@
             <BasicProperties>
                 <DesiredSpeed>500</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
-                <MaxTrajectory>1400</MaxTrajectory>
-                <IsExplosive>true</IsExplosive>
+                <MaxTrajectory>1600</MaxTrajectory>
+                <IsExplosive>false</IsExplosive>
                 <BackkickForce>50000</BackkickForce>
                 <PhysicalMaterial>MediumShell</PhysicalMaterial>
             </BasicProperties>
             <MissileProperties>
                 <MissileMass>300</MissileMass>
-                <MissileExplosionRadius>2</MissileExplosionRadius>
+                <MissileExplosionRadius>1.5</MissileExplosionRadius>
                 <MissileModelName>Models\Weapons\MediumCalibreShell.mwm</MissileModelName>
                 <MissileAcceleration>0</MissileAcceleration>
                 <MissileInitialSpeed>500</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileExplosionDamage>0</MissileExplosionDamage>
-                <MissileHealthPool>4000</MissileHealthPool>
+                <MissileHealthPool>1500</MissileHealthPool>
                 <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
                 <MissileGravityEnabled>true</MissileGravityEnabled>
             </MissileProperties>
         </Ammo>
 
 		<!-- Artillery Shell -->
+        <!--
+            Changes:
+            - Armor piercing damage to 0 from 17000
+            - Explosive damage to 4500 from 0
+            - Projectile speed to 400 m/s from 500
+            - Explosive splash radius to 2 meters from 3
+        -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
                 <SubtypeId>LargeCalibreShell</SubtypeId>
             </Id>
             <BasicProperties>
-                <DesiredSpeed>500</DesiredSpeed>
+                <DesiredSpeed>400</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
                 <MaxTrajectory>2000</MaxTrajectory>
                 <IsExplosive>true</IsExplosive>
@@ -139,13 +156,13 @@
             </BasicProperties>
             <MissileProperties>
                 <MissileMass>800</MissileMass>
-                <MissileExplosionRadius>3</MissileExplosionRadius>
+                <MissileExplosionRadius>2</MissileExplosionRadius>
                 <MissileModelName>Models\Weapons\LargeCalibreShell.mwm</MissileModelName>
                 <MissileAcceleration>0</MissileAcceleration>
-                <MissileInitialSpeed>500</MissileInitialSpeed>
+                <MissileInitialSpeed>400</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
-                <MissileExplosionDamage>0</MissileExplosionDamage>
-                <MissileHealthPool>17000</MissileHealthPool>
+                <MissileExplosionDamage>4500</MissileExplosionDamage>
+                <!--<MissileHealthPool>17000</MissileHealthPool>-->
                 <MissileTrailEffect>LargeCalibreGun_Tracer</MissileTrailEffect>
                 <MissileGravityEnabled>true</MissileGravityEnabled>
             </MissileProperties>

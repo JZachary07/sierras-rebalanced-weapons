@@ -47,6 +47,7 @@
 - Acceleration to 250 m/s^2 from 600
 - Splash radius to 5 meters from 4
 - Splash damage to 800 from 500
+- Gravity enabled
 
 *Dev note: Lower laucn speed & acceleration coupled with higher final velocity should increase the effective range of missiles without making them too deadly in fighter versus fighter engagements.*
 
@@ -135,18 +136,44 @@
 *Dev note: this makes the AC turret competitive with large grids, even on small grids. It is your best anti-air defense.*
 
 ## Assault Cannons
+- Damage from 4000 to 1500
+- Projectile max range to 1600 meters from 1400
+- Projectile explosion FX disabled
 
 ### Small Grid Assault Cannon
+- Reload to 2 seconds from 6
 
-### Large Grid Assault Cannon
+### Small Grid Assault Cannon Turret
+- Reload to 1.5 seconds from 6
+- Shot deviation to 0.25 degrees from 0.5
+- Targeting range to 1000 meters from 600
+- Idle rotation disabled by default
+- Required construction component cost to 50 from 60
+- Metal grid cost to 20 from 10
 
-### Assault Cannon Turret
+*Dev note: slight increase in the resource cost of assault cannons due to their general power level. Block health is unchanged.*
+
+### Large Grid Assault Cannon Turret
+- Reload to 2 seconds from 6
+- Shot deviation to 0.3 degrees from 0.35
+- Required construction component cost to 180 from 200
+- Metal grid cost to 50 from 30
 
 ## Artillery Cannons
+- Armor piercing damage to 0 from 17000
+- Explosive damage to 4500 from 0
+- Projectile speed to 400 m/s from 500
+- Explosive splash radius to 2 meters from 3
 
 ### Artillery Cannon
+- Reload to 4 seconds from 12
+- Shot deviation to 0.25 degrees from 0.15
+- Superconductor cost to 2 from 0
 
 ### Artillery Cannon Turret
+- Fire rate to 90 RPM from 80
+- Reload to 4 seconds from 12
+- Superconductor cost to 5 from 0
 
 ## Railguns
 

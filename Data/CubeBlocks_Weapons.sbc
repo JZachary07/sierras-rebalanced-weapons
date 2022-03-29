@@ -828,6 +828,13 @@
         </Definition>
 
         <!-- Small Grid Assault Cannon Turret -->
+        <!--
+            Changes:
+            - Targeting range to 1000 meters from 600
+            - Idle rotation disabled by default
+            - Required construction component cost to 50 from 60
+            - Metal grid cost to 20 from 10
+        -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
                 <TypeId>LargeMissileTurret</TypeId>
@@ -846,8 +853,8 @@
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
                 <Component Subtype="SteelPlate" Count="25" />
-                <Component Subtype="Construction" Count="60" />
-                <Component Subtype="MetalGrid" Count="10" />
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="MetalGrid" Count="20" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="Motor" Count="10" />
                 <Component Subtype="Computer" Count="20" />
@@ -892,8 +899,8 @@
             <MaxElevationDegrees>50</MaxElevationDegrees>
             <MinAzimuthDegrees>-180</MinAzimuthDegrees>
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-            <IdleRotation>true</IdleRotation>
-            <MaxRangeMeters>600</MaxRangeMeters>
+            <IdleRotation>false</IdleRotation>
+            <MaxRangeMeters>1000</MaxRangeMeters>
             <RotationSpeed>0.0008</RotationSpeed>
             <ElevationSpeed>0.0008 </ElevationSpeed>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -918,6 +925,13 @@
         </Definition>
 
         <!-- Large Grid Assault Cannon Turret -->
+        <!--
+            Changes:
+            - Targeting range to 1200 meters from 800
+            - Idle rotation disabled by default
+            - Required construction component cost to 180 from 200
+            - Metal grid cost to 50 from 30
+        -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
                 <TypeId>LargeMissileTurret</TypeId>
@@ -936,8 +950,8 @@
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
                 <Component Subtype="SteelPlate" Count="100" />
-                <Component Subtype="Construction" Count="200" />
-                <Component Subtype="MetalGrid" Count="30" />
+                <Component Subtype="Construction" Count="180" />
+                <Component Subtype="MetalGrid" Count="50" />
                 <Component Subtype="LargeTube" Count="30" />
                 <Component Subtype="Motor" Count="20" />
                 <Component Subtype="Computer" Count="20" />
@@ -985,8 +999,8 @@
             <MaxElevationDegrees>75</MaxElevationDegrees>
             <MinAzimuthDegrees>-180</MinAzimuthDegrees>
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-            <IdleRotation>true</IdleRotation>
-            <MaxRangeMeters>800</MaxRangeMeters>
+            <IdleRotation>false</IdleRotation>
+            <MaxRangeMeters>1200</MaxRangeMeters>
             <RotationSpeed>0.0004</RotationSpeed>
             <ElevationSpeed>0.0004 </ElevationSpeed>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -1011,6 +1025,10 @@
         </Definition>
 
         <!-- Large Grid Artillery Cannon Fixed -->
+        <!--
+            Changes:
+            - Superconductor cost to 2 from 0
+        -->
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallMissileLauncher</TypeId>
@@ -1028,6 +1046,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="100" />
                 <Component Subtype="Construction" Count="20" />
+                <Component Subtype="Superconductor" Count="2" />
                 <Component Subtype="MetalGrid" Count="20" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="Computer" Count="5" />
@@ -1076,6 +1095,11 @@
         </Definition>
 
         <!-- large Grid Artillery Cannon Turret -->
+        <!--
+            Changes:
+            - Idle rotation disabled by default
+            - Superconductor cost to 5 from 0
+        -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
                 <TypeId>LargeMissileTurret</TypeId>
@@ -1095,6 +1119,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="150" />
                 <Component Subtype="Construction" Count="300" />
+                <Component Subtype="Superconductor" Count="5" />
                 <Component Subtype="MetalGrid" Count="50" />
                 <Component Subtype="LargeTube" Count="40" />
                 <Component Subtype="Motor" Count="30" />
@@ -1143,7 +1168,7 @@
             <MaxElevationDegrees>60</MaxElevationDegrees>
             <MinAzimuthDegrees>-180</MinAzimuthDegrees>
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
-            <IdleRotation>true</IdleRotation>
+            <IdleRotation>false</IdleRotation>
             <MaxRangeMeters>800</MaxRangeMeters>
             <RotationSpeed>0.0002</RotationSpeed>
             <ElevationSpeed>0.0002 </ElevationSpeed>
