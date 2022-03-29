@@ -1,3 +1,7 @@
+### Todo list
+- increase artillery shell cost
+- increase assault cannon shell cost
+
 #### Possible changes needed
 - revert missile damage buff
 - reduce artillery splash radius to 1-1.5
