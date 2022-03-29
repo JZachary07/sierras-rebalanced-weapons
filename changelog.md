@@ -223,7 +223,7 @@
 - Capacity to 0.6 MWh from 0.5
 - Recharge draw to 300 from 38
 
-*Dev note: Changes to the capacitors reduce weapon cycle time to ~9 seconds from 49.5. Reload time now reflects this accurately.*
+*Dev note: Changes to the capacitors reduce weapon cycle time to ~10 seconds from 49.5. Reload time now reflects this accurately.*
 
 #### Large Railgun Slug
 - Production time to 20 seconds from 12
