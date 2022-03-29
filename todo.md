@@ -2,3 +2,4 @@
 - artillery needs accuracy reduction
 - artillery also needs splash radius reduction
 - small railguns need slight recoil reduction
+- large grid gatling/missile turrets need armor increases
