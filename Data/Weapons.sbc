@@ -258,8 +258,8 @@
             Changes:
             - Fire rate to 180 RPM from 150
             - Burst length to 20 from 200
-            - Shot deviation to 0.2 degrees from 0.15
-            - Reload time to 1.6 seconds from 2.5
+            - Shot deviation to 0.25 degrees from 0.15
+            - Reload time to 2 seconds from 2.5
             - Removed smoke FX for visibility
         -->
         <Weapon>
@@ -269,8 +269,8 @@
             </Id>
             <ProjectileAmmoData RateOfFire="180" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="20" />
             <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-            <DeviateShotAngle>0.2</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.2</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.25</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.25</DeviateShotAngleAiming>
             <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <SecondarySoundName></SecondarySoundName>
@@ -287,7 +287,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="AutocannonClip" />
             </AmmoMagazines>
-            <ReloadTime>1600</ReloadTime>
+            <ReloadTime>2000</ReloadTime>
         </Weapon>
 
         <!-- Small Grid Autocannon Turret-->
@@ -295,8 +295,8 @@
             Changes:
             - Fire rate to 180 RPM from 150
             - Burst length to 20 from 200
-            - Shot deviation to 0.15 degrees from 0.25
-            - Reload time to 2.4 seconds from 4
+            - Shot deviation to 0.08 degrees from 0.25
+            - Reload time to 1.6 seconds from 4
             - Removed smoke FX for visibility
         -->
         <Weapon>
@@ -306,8 +306,8 @@
             </Id>
             <ProjectileAmmoData RateOfFire="180" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="20" />
             <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-            <DeviateShotAngle>0.15</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.15</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.08</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.08</DeviateShotAngleAiming>
             <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <SecondarySoundName></SecondarySoundName>
@@ -321,7 +321,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="AutocannonClip" />
             </AmmoMagazines>
-            <ReloadTime>2400</ReloadTime>
+            <ReloadTime>1600</ReloadTime>
         </Weapon>
 
         <!-- Small Grid Assault Cannon Fixed -->
