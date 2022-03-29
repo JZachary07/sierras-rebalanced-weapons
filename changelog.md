@@ -223,3 +223,8 @@
 
 ### Large Grid Turret Controller
 - Targeting range to 1600 meters from 800
+
+### Miscellaneous
+- Target scanning distance to 3000 meters from 2000
+- Target scanning angle to 45 degrees from 25
+- Bulletproof glass integrity to 90 from 60

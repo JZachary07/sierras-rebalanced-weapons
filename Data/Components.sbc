@@ -62,6 +62,10 @@
         </Component>
 
         <!-- Bulletproof Glass -->
+        <!--
+            Changes:
+            - integrity to 90 from 60
+        -->
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
@@ -78,7 +82,7 @@
             <Volume>8</Volume>
             <Model>Models\Components\bulletproof_glass_component.mwm</Model>
             <PhysicalMaterial>Glass</PhysicalMaterial>
-            <MaxIntegrity>60</MaxIntegrity>
+            <MaxIntegrity>90</MaxIntegrity>
             <DropProbability>0.3</DropProbability>
             <Health>14</Health>
             <MinimumOfferAmount>100</MinimumOfferAmount>

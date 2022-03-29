@@ -32,13 +32,18 @@
         </EntityComponent>
 
         <!-- Target Detection Range-->
+        <!--
+            Changes:
+            - Target scan distance to 3000 meters from 2000
+            - Target scan angle to 45 degrees from 25
+        -->
         <EntityComponent xsi:type="MyObjectBuilder_TargetFocusComponentDefinition">
             <Id>
                 <TypeId>TargetFocusComponent</TypeId>
                 <SubtypeId>Character</SubtypeId>
             </Id>
-            <FocusSearchMaxDistance>2000</FocusSearchMaxDistance>
-            <AngularToleranceFromCrosshair>25</AngularToleranceFromCrosshair>
+            <FocusSearchMaxDistance>3000</FocusSearchMaxDistance>
+            <AngularToleranceFromCrosshair>45</AngularToleranceFromCrosshair>
         </EntityComponent>
 
     </EntityComponents>
