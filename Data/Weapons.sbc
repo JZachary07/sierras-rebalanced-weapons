@@ -145,9 +145,9 @@
         <!-- Small Grid Standard Rocket Launcher -->
         <!--
             Changes:
-            - Fire rate to 300 RPM from 60
+            - Fire rate to 360 RPM from 60
             - Burst length to 4 from 0
-            - Shot deviation to 0.3 degrees from 0.1
+            - Shot deviation to 0.5 degrees from 0.1
             - Reload time to 8 seconds from 2
         -->
         <Weapon>
@@ -155,9 +155,9 @@
                 <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>SmallMissileLauncher</SubtypeId>
             </Id>
-            <MissileAmmoData RateOfFire="300" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="4" />
-            <DeviateShotAngle>0.3</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MissileAmmoData RateOfFire="360" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="4" />
+            <DeviateShotAngle>0.5</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
@@ -168,24 +168,24 @@
         <!-- Small Grid Reloadable Rocket Launcher -->
         <!-- NEW DEFINITION
             Changes:
-            - Fire rate to 150 RPM from 60
-            - Burst length to 4 from 0
-            - Shot deviation to 0.2 degrees from 0.1
-            - Reload time to 4 seconds from 2
+            - Fire rate to 300 RPM from 60
+            - Burst length to 2 from 0
+            - Shot deviation to 0.25 degrees from 0.1
+            - Reload time to 1.5 seconds from 2
         -->
         <Weapon>
             <Id>
                 <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>SmallMissileLauncherReload</SubtypeId>
             </Id>
-            <MissileAmmoData RateOfFire="150" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="4" />
-            <DeviateShotAngle>0.2</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.2</DeviateShotAngleAiming>
+            <MissileAmmoData RateOfFire="300" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>0.25</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.25</DeviateShotAngleAiming>
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>
-            <ReloadTime>4000</ReloadTime>
+            <ReloadTime>1500</ReloadTime>
         </Weapon>
 
         <!-- Large Grid Rocket Launcher -->
@@ -193,8 +193,8 @@
             Changes:
             - Fire rate to 360 RPM from 120
             - Burst length to 8 rounds from 19
-            - Shot deviation to 0.5 degrees from 0.1
-            - Reload time to 5 seconds from 4
+            - Shot deviation to 2 degrees from 0.1
+            - Reload time to 6 seconds from 4
         -->
         <Weapon>
             <Id>
@@ -202,20 +202,20 @@
                 <SubtypeId>LargeMissileLauncher</SubtypeId>
             </Id>
             <MissileAmmoData RateOfFire="360" ShootSoundName="WepShipSmallMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="8" />
-            <DeviateShotAngle>0.5</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
+            <DeviateShotAngle>2</DeviateShotAngle>
+            <DeviateShotAngleAiming>2</DeviateShotAngleAiming>
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>
-            <ReloadTime>5000</ReloadTime>
+            <ReloadTime>6000</ReloadTime>
         </Weapon>
         
         <!-- Small Grid Rocket Turret -->
         <!--
             Changes:
-            - Fire rate to 200 RPM from 90
-            - Shot deviation to 0.25 degrees from 0.5
+            - Fire rate to 240 RPM from 90
+            - Shot deviation to 1.2 degrees from 0.5
             - Reload time to 2 seconds from 6
         -->
         <Weapon>
@@ -223,9 +223,9 @@
                 <TypeId>WeaponDefinition</TypeId>
                 <SubtypeId>SmallMissileTurret</SubtypeId>
             </Id>
-            <MissileAmmoData RateOfFire="200" ShootSoundName="WepTurretMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="2" />
-            <DeviateShotAngle>0.3</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <MissileAmmoData RateOfFire="240" ShootSoundName="WepTurretMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="2" />
+            <DeviateShotAngle>1.2</DeviateShotAngle>
+            <DeviateShotAngleAiming>1.2</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>
@@ -236,8 +236,8 @@
         <!--
             Changes:
             - Fire rate to 360 RPM from 90
-            - Shot deviation to 0.3 from 0.5
-            - Reload time to 5 seconds from 4
+            - Shot deviation to 1 from 0.5
+            - Reload time to 4.5 seconds from 4
         -->
         <Weapon>
             <Id>
@@ -245,12 +245,12 @@
                 <SubtypeId>LargeMissileTurret</SubtypeId>
             </Id>
             <MissileAmmoData RateOfFire="360" ShootSoundName="WepTurretMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="6" />
-            <DeviateShotAngle>0.3</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <DeviateShotAngle>1</DeviateShotAngle>
+            <DeviateShotAngleAiming>1</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>
-            <ReloadTime>5000</ReloadTime>
+            <ReloadTime>4500</ReloadTime>
         </Weapon>
 
         <!-- Small Grid Autocannon Fixed -->
@@ -295,7 +295,7 @@
             Changes:
             - Fire rate to 180 RPM from 150
             - Burst length to 20 from 200
-            - Shot deviation to 0.08 degrees from 0.25
+            - Shot deviation to 0.2 degrees from 0.25
             - Reload time to 1.6 seconds from 4
             - Removed smoke FX for visibility
         -->
@@ -306,8 +306,8 @@
             </Id>
             <ProjectileAmmoData RateOfFire="180" ShootSoundName="WepShipAutocannonShot" ShotsInBurst="20" />
             <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
-            <DeviateShotAngle>0.08</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.08</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.2</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.2</DeviateShotAngleAiming>
             <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
             <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
             <SecondarySoundName></SecondarySoundName>
@@ -328,6 +328,7 @@
         <!--
             Changes:
             - Reload to 2 seconds from 6 seconds
+            - Shot deviation to 0.25 degrees from 0.2
         -->
         <Weapon>
             <Id>
@@ -335,8 +336,8 @@
                 <SubtypeId>SmallMediumCalibreGun</SubtypeId>
             </Id>
             <MissileAmmoData RateOfFire="200" ShootSoundName="WepMediumCalibreShot" FlightSoundName="MediumShellFlightSound" ShotsInBurst="1" />
-            <DeviateShotAngle>0.2</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.2</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.25</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.25</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="MediumCalibreAmmo" />
             </AmmoMagazines>
@@ -349,7 +350,7 @@
         <!-- Small Grid Assault Cannon Turret -->
         <!--
             Changes:
-            - Shot deviation to 0.25 degrees from 0.5
+            - Shot deviation to 0.35 degrees from 0.5
             - Reload to 1.5 seconds from 6 seconds
         -->
         <Weapon>
@@ -358,8 +359,8 @@
                 <SubtypeId>SmallMediumCalibreTurret</SubtypeId>
             </Id>
             <MissileAmmoData RateOfFire="200" ShootSoundName="WepMediumCalibreShot" FlightSoundName="MediumShellFlightSound" ShotsInBurst="1" />
-            <DeviateShotAngle>0.25</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.25</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.35</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.35</DeviateShotAngleAiming>
             <MinimumTimeBetweenIdleRotationsMs>7000</MinimumTimeBetweenIdleRotationsMs>
             <MaximumTimeBetweenIdleRotationsMs>10000</MaximumTimeBetweenIdleRotationsMs>
             <AmmoMagazines>
@@ -374,8 +375,8 @@
         <!-- Large Grid Assault Cannon Turret-->
         <!--
             Changes:
-            - Shot deviation to 0.3 degrees from 0.35
-            - Reload time to 2 seconds from 6
+            - Shot deviation to 0.6 degrees from 0.35
+            - Reload time to 2.667 seconds from 6
         -->
         <Weapon>
             <Id>
@@ -383,14 +384,14 @@
                 <SubtypeId>MediumCalibreTurret</SubtypeId>
             </Id>
             <MissileAmmoData RateOfFire="180" ShootSoundName="WepMediumCalibreShot" FlightSoundName="MediumShellFlightSound" ShotsInBurst="2" />
-            <DeviateShotAngle>0.3</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.6</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.6</DeviateShotAngleAiming>
             <MinimumTimeBetweenIdleRotationsMs>10000</MinimumTimeBetweenIdleRotationsMs>
             <MaximumTimeBetweenIdleRotationsMs>15000</MaximumTimeBetweenIdleRotationsMs>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="MediumCalibreAmmo" />
             </AmmoMagazines>
-            <ReloadTime>2000</ReloadTime>
+            <ReloadTime>2667</ReloadTime>
             <Effects>
                 <Effect Action="Shoot" Dummy="Muzzle_Missile_Left" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
                 <Effect Action="Shoot" Dummy="Muzzle_Missile_Right" Particle="Muzzle_Flash_MediumCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
@@ -401,7 +402,7 @@
         <!--
             Changes:
             - Reload to 4 seconds from 12
-            - Shot deviation to 0.25 degrees from 0.15
+            - Shot deviation to 0.5 degrees from 0.15
         -->
         <Weapon>
             <Id>
@@ -409,8 +410,8 @@
                 <SubtypeId>LargeCalibreGun</SubtypeId>
             </Id>
             <MissileAmmoData RateOfFire="80" ShootSoundName="WepLargeCalibreShot" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="1" />
-            <DeviateShotAngle>0.25</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.25</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.5</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.5</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="LargeCalibreAmmo" />
             </AmmoMagazines>
@@ -424,7 +425,8 @@
         <!--
             Changes:
             - Fire rate to 90 RPM from 80
-            - Reload to 4 seconds from 12
+            - Reload to 4.5 seconds from 12
+            - Shot deviation to 0.75 degrees from 0.3
         -->
         <Weapon>
             <Id>
@@ -432,14 +434,14 @@
                 <SubtypeId>LargeCalibreTurret</SubtypeId>
             </Id>
             <MissileAmmoData RateOfFire="90" ShootSoundName="WepLargeCalibreShot" FlightSoundName="HeavyShellFlightSound" ShotsInBurst="2" />
-            <DeviateShotAngle>0.3</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.75</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.75</DeviateShotAngleAiming>
             <MinimumTimeBetweenIdleRotationsMs>15000</MinimumTimeBetweenIdleRotationsMs>
             <MaximumTimeBetweenIdleRotationsMs>20000</MaximumTimeBetweenIdleRotationsMs>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="LargeCalibreAmmo" />
             </AmmoMagazines>
-            <ReloadTime>4000</ReloadTime>
+            <ReloadTime>4500</ReloadTime>
             <Effects>
                 <Effect Action="Shoot" Dummy="muzzle_missile_001" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>
                 <Effect Action="Shoot" Dummy="muzzle_missile_002" Particle="Muzzle_Flash_LargeCalibre" Loop="false" InstantStop="false" DisplayOnlyOnDummyFiring="true"/>

@@ -156,6 +156,10 @@
             Changes:
             - Traverse speed to 0.0025 from 0.0015
             - Idle movement disabled by default
+            - Required steel plate cost to 20 from 10
+            - Optional steel plate cost to 50 from 30
+            - Required construction component cost to 20 from 30
+            - Optional construction component cost to 20 from 10
         -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
@@ -173,14 +177,14 @@
             <Model>Models\Cubes\Large\GatlingTurret.mwm</Model>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="SteelPlate" Count="10" />
-                <Component Subtype="Construction" Count="30" />
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
                 <Component Subtype="MetalGrid" Count="15" />
                 <Component Subtype="SmallTube" Count="6" />
                 <Component Subtype="Motor" Count="8" />
                 <Component Subtype="Computer" Count="10" />
-                <Component Subtype="Construction" Count="10" />
-                <Component Subtype="SteelPlate" Count="30" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SteelPlate" Count="50" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -362,6 +366,10 @@
         </Definition>
 
         <!-- Large Grid Rocket Launcher Fixed -->
+        <!--
+            Changes:
+            - Optional steel plate cost to 40 from 15
+        -->
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallMissileLauncher</TypeId>
@@ -383,7 +391,7 @@
                 <Component Subtype="LargeTube" Count="25" />
                 <Component Subtype="Motor" Count="6" />
                 <Component Subtype="Computer" Count="4" />
-                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="SteelPlate" Count="40" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -519,6 +527,10 @@
             Changes:
             - Traverse speed to 0.0015 from 0.001
             - Idle rotation disabled by default
+            - Required construction component cost to 20 from 35
+            - Optional construction component cost to 40 from 15
+            - Required steel plate cost to 20 from 10
+            - Optional steel plate cost to 50 from 30
         -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
@@ -537,14 +549,14 @@
             <Model>Models\Cubes\Large\MissileTurret.mwm</Model>
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
-                <Component Subtype="SteelPlate" Count="10" />
-                <Component Subtype="Construction" Count="35" />
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="20" />
                 <Component Subtype="MetalGrid" Count="15" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="Motor" Count="16" />
                 <Component Subtype="Computer" Count="10" />
-                <Component Subtype="Construction" Count="15" />
-                <Component Subtype="SteelPlate" Count="30" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="50" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>

@@ -38,7 +38,7 @@
             - Splash damage to 800 from 500
             - Top speed to 400 m/s from 200
             - Launch speed to 50 m/s from 100
-            - Acceleration to 250 m/s^2 from 600
+            - Acceleration to 150 m/s^2 from 600
             - Gravity enabled
         -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
@@ -58,7 +58,7 @@
                 <MissileMass>45</MissileMass>
                 <MissileExplosionRadius>5</MissileExplosionRadius>
                 <MissileModelName>Models\Weapons\Projectile_Missile.mwm</MissileModelName>
-                <MissileAcceleration>250</MissileAcceleration>
+                <MissileAcceleration>150</MissileAcceleration>
                 <MissileInitialSpeed>50</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileExplosionDamage>800</MissileExplosionDamage>
@@ -137,9 +137,9 @@
         <!--
             Changes:
             - Armor piercing damage to 0 from 17000
-            - Explosive damage to 4500 from 0
+            - Explosive damage to 3000 from 0
             - Projectile speed to 400 m/s from 500
-            - Explosive splash radius to 2 meters from 3
+            - Explosive splash radius to 1.8 meters from 3
             - Projectile max range to 2400 meters from 2000
         -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
@@ -157,12 +157,12 @@
             </BasicProperties>
             <MissileProperties>
                 <MissileMass>800</MissileMass>
-                <MissileExplosionRadius>2</MissileExplosionRadius>
+                <MissileExplosionRadius>1.8</MissileExplosionRadius>
                 <MissileModelName>Models\Weapons\LargeCalibreShell.mwm</MissileModelName>
                 <MissileAcceleration>0</MissileAcceleration>
                 <MissileInitialSpeed>400</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
-                <MissileExplosionDamage>4500</MissileExplosionDamage>
+                <MissileExplosionDamage>3000</MissileExplosionDamage>
                 <!--<MissileHealthPool>17000</MissileHealthPool>-->
                 <MissileTrailEffect>LargeCalibreGun_Tracer</MissileTrailEffect>
                 <MissileGravityEnabled>true</MissileGravityEnabled>
@@ -175,6 +175,7 @@
             - Projectile max range to 3600 meters from 1400
             - Projectile speed to 1200 m/s from 1000
             - Damage increased to 12000 from 8000
+            - Recoil force to 15000 from 30000
         -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
@@ -186,7 +187,7 @@
                 <SpeedVariance>0</SpeedVariance>
                 <MaxTrajectory>3600</MaxTrajectory>
                 <IsExplosive>true</IsExplosive>
-                <BackkickForce>30000</BackkickForce>
+                <BackkickForce>15000</BackkickForce>
                 <PhysicalMaterial>MediumShell</PhysicalMaterial>
             </BasicProperties>
             <MissileProperties>
