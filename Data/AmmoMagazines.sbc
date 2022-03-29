@@ -88,6 +88,7 @@
             <MinimumOrderAmount>10</MinimumOrderAmount>
             <MaximumOrderAmount>1000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
+        </AmmoMagazine>
 
 		<!-- Assault Cannon Shell -->
 		<AmmoMagazine>
