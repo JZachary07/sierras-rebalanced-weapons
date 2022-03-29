@@ -101,7 +101,7 @@
         <!--
             Changes:
             - Projectile max range to 1600 meters from 1400
-            - Projectile damage to 1500 from 4000
+            - Projectile damage to 1800 from 4000
             - Projectile explosion FX disabled
             - Explosion FX radius to 1.5 meters from 2
             
@@ -127,7 +127,7 @@
                 <MissileInitialSpeed>500</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileExplosionDamage>0</MissileExplosionDamage>
-                <MissileHealthPool>1500</MissileHealthPool>
+                <MissileHealthPool>1800</MissileHealthPool>
                 <MissileTrailEffect>MediumCalibreGun_Tracer</MissileTrailEffect>
                 <MissileGravityEnabled>true</MissileGravityEnabled>
             </MissileProperties>

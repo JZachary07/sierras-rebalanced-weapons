@@ -136,9 +136,10 @@
 *Dev note: this makes the AC turret competitive with large grids, even on small grids. It is your best anti-air defense.*
 
 ## Assault Cannons
-- Damage from 4000 to 1500
+- Damage from 4000 to 1800
 - Projectile max range to 1600 meters from 1400
 - Projectile explosion FX disabled
+- ~Explosion radius to 1 meter from 2~
 
 ### Small Grid Assault Cannon
 - Reload to 2 seconds from 6
