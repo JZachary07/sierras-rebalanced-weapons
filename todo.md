@@ -1,7 +1,4 @@
-- Further pull back missile acceleration
-- Reduce missile turret accuracy if necessary
-- Consider pulling back AC magazine by half, giving short reload for burst fire
-  - Improve accuracy
-  - switch reload disparity between turret & gun
-    - fixed gun would then reload longer, turret faster
-- Consider rolling back changes to small railgun
+- missiles need further accuracy reductions
+- artillery needs accuracy reduction
+- artillery also needs splash radius reduction
+- small railguns need slight recoil reduction
