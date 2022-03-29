@@ -140,6 +140,7 @@
             - Explosive damage to 4500 from 0
             - Projectile speed to 400 m/s from 500
             - Explosive splash radius to 2 meters from 3
+            - Projectile max range to 2400 meters from 2000
         -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
@@ -149,7 +150,7 @@
             <BasicProperties>
                 <DesiredSpeed>400</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
-                <MaxTrajectory>2000</MaxTrajectory>
+                <MaxTrajectory>2400</MaxTrajectory>
                 <IsExplosive>true</IsExplosive>
                 <BackkickForce>150000</BackkickForce>
                 <PhysicalMaterial>LargeShell</PhysicalMaterial>
@@ -169,15 +170,21 @@
         </Ammo>
 
 		<!-- Small Grid Railgun Slug -->
+        <!--
+            Changes:
+            - Projectile max range to 3600 meters from 1400
+            - Projectile speed to 1200 m/s from 1000
+            - Damage increased to 12000 from 8000
+        -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
                 <SubtypeId>SmallRailgunSlug</SubtypeId>
             </Id>
             <BasicProperties>
-                <DesiredSpeed>1000</DesiredSpeed>
+                <DesiredSpeed>1200</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
-                <MaxTrajectory>1400</MaxTrajectory>
+                <MaxTrajectory>3600</MaxTrajectory>
                 <IsExplosive>true</IsExplosive>
                 <BackkickForce>30000</BackkickForce>
                 <PhysicalMaterial>MediumShell</PhysicalMaterial>
@@ -187,25 +194,30 @@
                 <MissileExplosionRadius>0</MissileExplosionRadius>
                 <MissileModelName>Models\Weapons\RailgunAmmo.mwm</MissileModelName>
                 <MissileAcceleration>0</MissileAcceleration>
-                <MissileInitialSpeed>1000</MissileInitialSpeed>
+                <MissileInitialSpeed>1200</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileExplosionDamage>0</MissileExplosionDamage>
-                <MissileHealthPool>8000</MissileHealthPool>
+                <MissileHealthPool>12000</MissileHealthPool>
                 <MissileTrailEffect>RailGunTrailSmall</MissileTrailEffect>
                 <MissileGravityEnabled>true</MissileGravityEnabled>
             </MissileProperties>
         </Ammo>
 
 		<!-- Large Grid Railgun Slug -->
+        <!--
+            Changes:
+            - Projectile max range to 5000 meters from 2000
+            - Projectile speed to 2500 from 2000
+        -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
                 <SubtypeId>LargeRailgunSlug</SubtypeId>
             </Id>
             <BasicProperties>
-                <DesiredSpeed>2000</DesiredSpeed>
+                <DesiredSpeed>2500</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
-                <MaxTrajectory>2000</MaxTrajectory>
+                <MaxTrajectory>5000</MaxTrajectory>
                 <IsExplosive>true</IsExplosive>
                 <BackkickForce>120000</BackkickForce>
                 <PhysicalMaterial>LargeShell</PhysicalMaterial>
@@ -215,7 +227,7 @@
                 <MissileExplosionRadius>1</MissileExplosionRadius>
                 <MissileModelName>Models\Weapons\RailgunAmmoLarge.mwm</MissileModelName>
                 <MissileAcceleration>0</MissileAcceleration>
-                <MissileInitialSpeed>2000</MissileInitialSpeed>
+                <MissileInitialSpeed>2500</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
                 <MissileExplosionDamage>0</MissileExplosionDamage>
                 <MissileHealthPool>50000</MissileHealthPool>

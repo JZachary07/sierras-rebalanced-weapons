@@ -1099,6 +1099,7 @@
             Changes:
             - Idle rotation disabled by default
             - Superconductor cost to 5 from 0
+            - Targeting range to 1600 meters from 800
         -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
@@ -1169,7 +1170,7 @@
             <MinAzimuthDegrees>-180</MinAzimuthDegrees>
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
             <IdleRotation>false</IdleRotation>
-            <MaxRangeMeters>800</MaxRangeMeters>
+            <MaxRangeMeters>1600</MaxRangeMeters>
             <RotationSpeed>0.0002</RotationSpeed>
             <ElevationSpeed>0.0002 </ElevationSpeed>
             <EmissiveColorPreset>Default</EmissiveColorPreset>
@@ -1199,6 +1200,11 @@
         </Definition>
 
         <!-- Small Grid Railgun Fixed -->
+        <!--
+            Changes:
+            - Superconductor cost to 25 from 20
+            - Power cell cost to 20 from 10
+        -->
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallMissileLauncherReload</TypeId>
@@ -1215,7 +1221,7 @@
             <Components>
                 <Component Subtype="SteelPlate" Count="5" />
                 <Component Subtype="Construction" Count="20" />
-                <Component Subtype="Superconductor" Count="20" />
+                <Component Subtype="Superconductor" Count="25" />
                 <Component Subtype="LargeTube" Count="6" />
                 <Component Subtype="PowerCell" Count="10"/>
                 <Component Subtype="Computer" Count="20" />

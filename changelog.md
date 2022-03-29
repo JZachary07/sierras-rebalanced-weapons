@@ -139,7 +139,7 @@
 - Damage from 4000 to 1800
 - Projectile max range to 1600 meters from 1400
 - Projectile explosion FX disabled
-- ~Explosion radius to 1 meter from 2~
+- ~~Explosion radius to 1 meter from 2~~
 
 ### Small Grid Assault Cannon
 - Reload to 2 seconds from 6
@@ -159,12 +159,14 @@
 - Shot deviation to 0.3 degrees from 0.35
 - Required construction component cost to 180 from 200
 - Metal grid cost to 50 from 30
+- Targeting range to 1200 meters from 800
 
 ## Artillery Cannons
 - Armor piercing damage to 0 from 17000
 - Explosive damage to 4500 from 0
 - Projectile speed to 400 m/s from 500
 - Explosive splash radius to 2 meters from 3
+- Projectile max range to 2400 meters from 2000
 
 ### Artillery Cannon
 - Reload to 4 seconds from 12
@@ -175,9 +177,49 @@
 - Fire rate to 90 RPM from 80
 - Reload to 4 seconds from 12
 - Superconductor cost to 5 from 0
+- Targeting range to 1600 metres from 800
 
 ## Railguns
 
 ### Small Grid Railgun
+- Projectile max range to 3600 meters from 1400
+- Projectile speed to 1200 m/s from 1000
+- Damage increased to 12000 from 8000
+- Capacitor charge to 0.013 MWh from 0.016
+- Recharge rate to 10.5 MW from 3.2
+- Superconductor cost to 25 from 20
+- Power cell cost to 20 from 10
+
+*Dev note: Changes to the capacitors reduce weapon cycle time to 4.5 seconds from 16.5. Reload time now reflects this accurately.*
+
+#### Small Railgun Slug
+- Production time to 12 seconds from 8
+- Slug Iron ingot cost to 20 from 4
+- Nickel ingot cost to 4 from 0.5
+- Silicon ingot cost to 8 from 5
+- Cobalt ingot cost to 3 from 0
+- Uranium ingot cost to 2 from 0.2
 
 ### Large Grid Railgun
+- Projectile max range to 5000 meters from 2000
+- Projectile speed to 2500 /s from 2000
+- Reload time to 8 seconds from 4
+- Shot delay to 1 second from 2
+- Capacity to 0.6 MWh from 0.5
+- Recharge draw to 300 from 38
+
+*Dev note: Changes to the capacitors reduce weapon cycle time to ~9 seconds from 49.5. Reload time now reflects this accurately.*
+
+#### Large Railgun Slug
+- Production time to 20 seconds from 12
+- Iron ingot cost to 100 from 20
+- Nickel ingot cost to 15 from 3
+- Silicon ingot cost to 40 from 30
+- Gold ingot cost to 0.5 from 0
+- Uranium ingot cost to 12 from 1
+
+### Small Grid Turret Controller
+- Targeting range to 1200 meters from 600
+
+### Large Grid Turret Controller
+- Targeting range to 1600 meters from 800

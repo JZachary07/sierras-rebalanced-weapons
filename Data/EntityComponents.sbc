@@ -2,23 +2,33 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <EntityComponents>
         <!-- Small Railgun Capacitor-->
+        <!--
+            Changes:
+            - Capacity to 0.013 MWh from 0.016
+            - Recharge draw to 10.5 MW from 3.2 (total cycle time to 4.5 seonds from 16.5)
+        -->
         <EntityComponent xsi:type="MyObjectBuilder_EntityCapacitorComponentDefinition">
             <Id>
                 <TypeId>EntityCapacitorComponent</TypeId>
                 <SubtypeId>SmallRailgun</SubtypeId>
             </Id>
-            <Capacity>0.016</Capacity>
-            <RechargeDraw>3.6</RechargeDraw>
+            <Capacity>0.013</Capacity>
+            <RechargeDraw>10.5</RechargeDraw>
         </EntityComponent>
         
         <!-- Large Railgun Capacitor-->
+        <!--
+            Changes:
+            - Capacity to 0.6 MWh from 0.5
+            - Recharge draw to 300 from 38 (total cycle time to ~9 seconds from 49.5)
+        -->
         <EntityComponent xsi:type="MyObjectBuilder_EntityCapacitorComponentDefinition">
             <Id>
                 <TypeId>EntityCapacitorComponent</TypeId>
                 <SubtypeId>LargeRailgun</SubtypeId>
             </Id>
-            <Capacity>0.5</Capacity>
-            <RechargeDraw>38</RechargeDraw>
+            <Capacity>0.6</Capacity>
+            <RechargeDraw>300</RechargeDraw>
         </EntityComponent>
 
         <!-- Target Detection Range-->

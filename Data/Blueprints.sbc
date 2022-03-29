@@ -113,6 +113,15 @@
         </Blueprint>
 
         <!-- Small Railgun Slug -->
+        <!--
+            Changes:
+            - Production time to 12 seconds from 8
+            - Iron ingot cost to 20 from 4
+            - Nickel ingot cost to 4 from 0.5
+            - Silicon ingot cost to 8 from 5
+            - Cobalt ingot cost to 3 from 0
+            - Uranium ingot cost to 2 from 0.2
+        -->
         <Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
@@ -121,16 +130,26 @@
             <DisplayName>DisplayName_Item_SmallRailgunAmmo</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\RailgunAmmo.dds</Icon>
             <Prerequisites>
-                <Item Amount="4" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Nickel" />
-                <Item Amount="5" TypeId="Ingot" SubtypeId="Silicon" />
-                <Item Amount="0.2" TypeId="Ingot" SubtypeId="Uranium" />
+                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="4" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="8" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="3" TypeId="Ingot" SubtypeId="Cobalt" />
+                <Item Amount="2" TypeId="Ingot" SubtypeId="Uranium" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SmallRailgunAmmo" />
             <BaseProductionTimeInSeconds>8</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <!-- Large Railgun Slug -->
+        <!--
+            Changes:
+            - Production time to 20 seconds from 12
+            - Iron ingot cost to 100 from 20
+            - Nickel ingot cost to 15 from 3
+            - Silicon ingot cost to 40 from 30
+            - Gold ingot cost to 0.5 from 0
+            - Uranium ingot cost to 12 from 1
+        -->
         <Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
@@ -139,13 +158,14 @@
             <DisplayName>DisplayName_Item_LargeRailgunAmmo</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\RailgunAmmoLarge.dds</Icon>
             <Prerequisites>
-                <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
-                <Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
-                <Item Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
+                <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="40" TypeId="Ingot" SubtypeId="Silicon" />
+                <Item Amount="0.5" TypeId="Ingot" SubtypeId="Gold" />                
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Uranium" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LargeRailgunAmmo" />
-            <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
         </Blueprint>
 
     </Blueprints>

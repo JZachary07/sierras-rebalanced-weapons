@@ -2,6 +2,10 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
         <!-- Small Turret Controller-->
+        <!--
+            Changes:
+            - Max targeting range to 1200 meters from 600
+        -->
         <Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition">
             <Id>
                 <TypeId>TurretControlBlock</TypeId>
@@ -53,7 +57,7 @@
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
             <PowerInputIdle>0.0005</PowerInputIdle>
             <PCU>100</PCU>
-            <MaxRangeMeters>600</MaxRangeMeters>
+            <MaxRangeMeters>1200</MaxRangeMeters>
             <IsAirTight>true</IsAirTight>
             <ScreenAreas>
                 <ScreenArea Name="CockpitScreen_01" DisplayName="" TextureResolution="256" ScreenWidth="5" ScreenHeight="4" />
@@ -61,6 +65,10 @@
         </Definition>
         
         <!-- Large Turret Controller -->
+        <!--
+            Changes:
+            - Max targeting range to 1600 meters from 800
+        -->
         <Definition xsi:type="MyObjectBuilder_TurretControlBlockDefinition">
             <Id>
                 <TypeId>TurretControlBlock</TypeId>
@@ -119,7 +127,7 @@
             <ResourceSinkGroup>Utility</ResourceSinkGroup>
             <PowerInputIdle>0.0005</PowerInputIdle>
             <PCU>100</PCU>
-            <MaxRangeMeters>800</MaxRangeMeters>
+            <MaxRangeMeters>1600</MaxRangeMeters>
             <ScreenAreas>
                 <ScreenArea Name="CockpitScreen_01" DisplayName="DisplayName_Screen_Large" TextureResolution="512" ScreenWidth="7" ScreenHeight="5" />
                 <ScreenArea Name="CockpitScreen_02" DisplayName="DisplayName_Screen_TopRight" TextureResolution="256" ScreenWidth="7" ScreenHeight="11" />

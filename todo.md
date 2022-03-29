@@ -4,3 +4,4 @@
   - Improve accuracy
   - switch reload disparity between turret & gun
     - fixed gun would then reload longer, turret faster
+- Consider rolling back changes to small railgun
