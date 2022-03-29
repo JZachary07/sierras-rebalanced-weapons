@@ -224,8 +224,8 @@
                 <SubtypeId>SmallMissileTurret</SubtypeId>
             </Id>
             <MissileAmmoData RateOfFire="200" ShootSoundName="WepTurretMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="2" />
-            <DeviateShotAngle>0.25</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.25</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>
@@ -236,7 +236,7 @@
         <!--
             Changes:
             - Fire rate to 360 RPM from 90
-            - Shot deviation to 0.35 from 0.5
+            - Shot deviation to 0.3 from 0.5
             - Reload time to 5 seconds from 4
         -->
         <Weapon>
@@ -245,8 +245,8 @@
                 <SubtypeId>LargeMissileTurret</SubtypeId>
             </Id>
             <MissileAmmoData RateOfFire="360" ShootSoundName="WepTurretMissileShot" FlightSoundName="MissileFlightSound" ShotsInBurst="6" />
-            <DeviateShotAngle>0.35</DeviateShotAngle>
-            <DeviateShotAngleAiming>0.35</DeviateShotAngleAiming>
+            <DeviateShotAngle>0.3</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>

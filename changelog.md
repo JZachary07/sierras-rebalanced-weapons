@@ -1,6 +1,8 @@
 ## Gatling Guns
 
 - Rounds per magazine to 150 rounds from 140
+- Iron cost to 30 ingots from 40
+- Magnesium cost to 2 ingots from 3
 - Burst length to 150 rounds from 180
 - Projectile velocity to 500 m/s from 400
 - Max projectile range to 1000 meters from 800
@@ -37,13 +39,14 @@
 - Max velocity to 400 m/s from 200
 - Acceleration to 250 m/s^2 from 600
 - Splash radius to 5 meters from 4
+- Splash damage to 800 from 500
 
 - Platinum cost to 0 ingots from 0.04
 - Uranium cost to 0 ingots from 0.1
-- Iron cost to 30 ingots from 55
-- Silicon cost to 0.8 ingots from 0.2
-- Cobalt cost to 3 ingots from 0
-- Magnesium cost to 6 ingots from 1.2
+- Iron cost to 10 ingots from 55
+- Nickel cost to 2 ingots from 7
+- Silicon cost to 0.1 ingots from 0.2
+- Magnesium cost to 2.5 ingots from 1.2
 
 #### Small Grid Rocket Launcher 
 
@@ -72,7 +75,7 @@
 #### Small Grid Missile Turret
 
 - Fire rate to 200 RPM from 90
-- Shot deviation to 0.25 degrees from 0.5
+- Shot deviation to 0.3 degrees from 0.5
 - Reload time to 2 seconds from 600
 - Max targeting range to 500 meters from 600
 - Traverse speed to 0.002 from 0.0015
@@ -81,7 +84,7 @@
 #### Large Grid Missile Turret
 
 - Fire rate to 360 RPM from 90
-- Shot deviation to 0.35 from 0.5
+- Shot deviation to 0.3 from 0.5
 - Reload time to 5 seconds from 4
 - Traverse speed to 0.0015 from 0.001
 - Idle rotation disabled by default

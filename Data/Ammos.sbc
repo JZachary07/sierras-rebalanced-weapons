@@ -35,6 +35,7 @@
         <!--
             Changes:
             - Splash radius to 5 meters from 4
+            - Splash damage to 800 from 500
             - Top speed to 400 m/s from 200
             - Launch speed to 50 m/s from 100
             - Acceleration to 250 m/s^2 from 600
@@ -59,7 +60,7 @@
                 <MissileAcceleration>250</MissileAcceleration>
                 <MissileInitialSpeed>50</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
-                <MissileExplosionDamage>500</MissileExplosionDamage>
+                <MissileExplosionDamage>800</MissileExplosionDamage>
                 <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
             </MissileProperties>
         </Ammo>
