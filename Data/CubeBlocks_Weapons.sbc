@@ -666,6 +666,11 @@
         </Definition>
 
         <!-- Small Grid Autocannon Turret-->
+        <!--
+            Changes:
+            - Targeting Range to 800 meters from 600
+            - Idle rotation disabled by default
+        -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
                 <TypeId>LargeGatlingTurret</TypeId>
@@ -730,8 +735,8 @@
             <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
             <RotationSpeed>0.001</RotationSpeed>
             <ElevationSpeed>0.001 </ElevationSpeed>
-            <IdleRotation>true</IdleRotation>
-            <MaxRangeMeters>600</MaxRangeMeters>
+            <IdleRotation>false</IdleRotation>
+            <MaxRangeMeters>800</MaxRangeMeters>
             <MinFov>0.1</MinFov>
             <MaxFov>1.04719755</MaxFov>
             <EmissiveColorPreset>Default</EmissiveColorPreset>

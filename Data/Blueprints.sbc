@@ -32,6 +32,7 @@
             - Nickel cost to 2 ingots from 7
             - Silicon cost to 0.1 ingots from 0.2
             - Magnesium cost to 2.5 ingots from 1.2
+            - Production time to 5 seconds from 10
         -->
         <Blueprint>
             <Id>
@@ -47,10 +48,18 @@
                 <Item Amount="2.5" TypeId="Ingot" SubtypeId="Magnesium" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
-            <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <!-- Autocannon Magazine -->
+        <!--
+            Changes:
+            - Iron cost to 35 ingots from 25
+            - Nickel cost to 7 ingots from 3
+            - Magnesium cost to 3 ingots from 2
+            - Cobalt Cost to 0.8 ingots from 0
+            - Production time to 12 seconds from 6
+        -->
         <Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
@@ -59,12 +68,13 @@
             <DisplayName>DisplayName_Item_AutoCannonClip</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\AutoCanonShellBox.dds</Icon>
             <Prerequisites>
-                <Item Amount="25" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="3" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="35" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="7" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="0.8" TypeId="Ingot" SubTypeId="Cobalt" />
                 <Item Amount="2" TypeId="Ingot" SubtypeId="Magnesium" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="AutocannonClip" />
-            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+            <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
         </Blueprint>
 
         <!-- Assault Cannon Shell -->

@@ -4,7 +4,7 @@
 - Iron cost to 30 ingots from 40
 - Magnesium cost to 2 ingots from 3
 - Burst length to 150 rounds from 180
-- Projectile velocity to 500 m/s from 400
+- Projectile velocity to 350 m/s from 400
 - Max projectile range to 1000 meters from 800
 - Grid damage to 50 from 90 (~28% DPS loss)
 - Player damage to 25 from 33 (~6% longer time to kill)
@@ -47,6 +47,7 @@
 - Nickel cost to 2 ingots from 7
 - Silicon cost to 0.1 ingots from 0.2
 - Magnesium cost to 2.5 ingots from 1.2
+- Production time to 5 seconds from 10
 
 #### Small Grid Rocket Launcher 
 
@@ -91,9 +92,33 @@
 
 ## Autocannons
 
+- Projectile velocity to 500 m/s from 400
+- Max projectile range to 1000 meters from 800
+- Grid damage to 350 from 500 (~19% DPS nerf)
+- Player damage to 120 from 85 (instakill)
+- Headshot bonus removed
+- Fire rate to 180 RPM from 150
+- Burst length to 20 from 200
+- Removed smoke FX for visibility
+
+- Magazine size to 20 rounds from 16
+- Iron cost to 35 ingots from 25
+- Nickel cost to 7 ingots from 3
+- Magnesium cost to 3 ingots from 2
+- Cobalt Cost to 0.8 ingots from 0
+- Production time to 12 seconds from 6
+
 #### Autocannon
 
+- Shot deviation to 0.2 degrees from 0.15
+- Reload time to 1.6 seconds from 2.5
+
 #### Autocannon Turret
+
+- Shot deviation to 0.15 degrees from 0.25
+- Reload time to 2.4 seconds from 4
+- Targeting Range to 800 meters from 600
+- Idle rotation disabled by default
 
 ## Assault Cannons
 

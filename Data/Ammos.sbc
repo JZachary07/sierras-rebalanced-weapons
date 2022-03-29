@@ -4,11 +4,11 @@
 		<!-- Gatling Gun Round -->
         <!--
             Changes:
-            - Velocity to 500 m/s from 400
+            - Velocity to 350 m/s from 400
             - Max range to 1000 meters from 800
             - Grid damage to 50 from 90 (28% DPS loss w/rof change)
             - Player damage to 25 from 33 (~6% increase to TTK)
-            - Headshot bonus removed
+            - Headshot flag to false
         -->
 		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
@@ -16,7 +16,7 @@
                 <SubtypeId>LargeCaliber</SubtypeId>
             </Id>
             <BasicProperties>
-                <DesiredSpeed>500</DesiredSpeed>
+                <DesiredSpeed>350</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
                 <MaxTrajectory>1000</MaxTrajectory>
                 <BackkickForce>200</BackkickForce>
@@ -66,24 +66,32 @@
         </Ammo>
 		
 		<!-- Autocannon Shell-->
+        <!--
+            Changes:
+            - Projectile velocity to 500 m/s from 400
+            - Max projectile range to 1000 meters from 800
+            - Grid damage to 350 from 500 (~19% DPS nerf)
+            - Player damage to 120 from 85 (instakill)
+            - Headshot flag to false
+        -->
 		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
             <Id>
                 <TypeId>AmmoDefinition</TypeId>
                 <SubtypeId>AutocannonShell</SubtypeId>
             </Id>
             <BasicProperties>
-                <DesiredSpeed>400</DesiredSpeed>
+                <DesiredSpeed>500</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
-                <MaxTrajectory>800</MaxTrajectory>
+                <MaxTrajectory>1000</MaxTrajectory>
                 <BackkickForce>1000</BackkickForce>
                 <PhysicalMaterial>GunAutocannonBullet</PhysicalMaterial>
             </BasicProperties>
             <ProjectileProperties>
                 <ProjectileTrailScale>0.5</ProjectileTrailScale>
                 <ProjectileHitImpulse>3</ProjectileHitImpulse>
-                <ProjectileMassDamage>500</ProjectileMassDamage>
-                <ProjectileHealthDamage>85</ProjectileHealthDamage>
-                <HeadShot>true</HeadShot>
+                <ProjectileMassDamage>350</ProjectileMassDamage>
+                <ProjectileHealthDamage>120</ProjectileHealthDamage>
+                <HeadShot>false</HeadShot>
             </ProjectileProperties>
         </Ammo>
 
