@@ -1,0 +1,3 @@
+- Further pull back missile acceleration
+- Reduce missile turret accuracy if necessary
+- Consider pulling back AC magazine by half, giving short reload for burst fire
