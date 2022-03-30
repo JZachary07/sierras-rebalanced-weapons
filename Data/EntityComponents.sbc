@@ -12,8 +12,8 @@
                 <TypeId>EntityCapacitorComponent</TypeId>
                 <SubtypeId>SmallRailgun</SubtypeId>
             </Id>
-            <Capacity>0.013</Capacity>
-            <RechargeDraw>10.5</RechargeDraw>
+            <Capacity>0.023</Capacity>
+            <RechargeDraw>21</RechargeDraw>
         </EntityComponent>
         
         <!-- Large Railgun Capacitor-->
@@ -27,8 +27,8 @@
                 <TypeId>EntityCapacitorComponent</TypeId>
                 <SubtypeId>LargeRailgun</SubtypeId>
             </Id>
-            <Capacity>0.6</Capacity>
-            <RechargeDraw>300</RechargeDraw>
+            <Capacity>0.9</Capacity>
+            <RechargeDraw>360</RechargeDraw>
         </EntityComponent>
 
         <!-- Target Detection Range-->

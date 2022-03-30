@@ -2,15 +2,7 @@
 - increase artillery shell cost
 - increase assault cannon shell cost
 - reduce component cost/hitpoints of large gun turrets
-- hide large gatling/missile in G menu (<Public>false</Public>)
-- Duplicate large gatling/missile with reduced hitboxes
 
 #### Possible changes needed
-- revert missile damage buff
-- reduce artillery splash radius to 1-1.5
-- reduce artillery splash damage to 2500
-- alternatively, consider buffing artillery a bit back (2m splash, 4000 damage)
 - reduce assault cannon damage to 1200-1500
 - reduce autocannon damage to 250-300
-- increase large railgun charge rate to 400 MW
-- increase small railgun charge rate to 15-21 MW

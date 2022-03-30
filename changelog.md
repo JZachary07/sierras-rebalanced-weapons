@@ -204,8 +204,8 @@
 - Projectile speed to 1200 m/s from 1000
 - Damage increased to 12000 from 8000
 - Recoil force to 15000 from 30000
-- Capacitor charge to 0.013 MWh from 0.016
-- Recharge rate to 10.5 MW from 3.2
+- Capacitor charge to 0.023 MWh from 0.016
+- Recharge rate to 21 MW from 3.2
 - Superconductor cost to 25 from 20
 - Power cell cost to 20 from 10
 
@@ -224,8 +224,8 @@
 - Projectile speed to 2500 /s from 2000
 - Reload time to 8 seconds from 4
 - Shot delay to 1 second from 2
-- Capacity to 0.6 MWh from 0.5
-- Recharge draw to 300 from 38
+- Capacity to 0.9 MWh from 0.5
+- Recharge draw to 360 from 38
 
 *Dev note: Changes to the capacitors reduce weapon cycle time to ~10 seconds from 49.5. Reload time now reflects this accurately.*
 
