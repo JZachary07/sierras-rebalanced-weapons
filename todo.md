@@ -2,6 +2,8 @@
 - increase artillery shell cost
 - increase assault cannon shell cost
 - reduce component cost/hitpoints of large gun turrets
+- hide large gatling/missile in G menu (<Public>false</Public>)
+- Duplicate large gatling/missile with reduced hitboxes
 
 #### Possible changes needed
 - revert missile damage buff
