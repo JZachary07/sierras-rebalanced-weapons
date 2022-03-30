@@ -35,7 +35,7 @@
         <!--
             Changes:
             - Splash radius to 5 meters from 4
-            - Splash damage to 800 from 500
+            - Splash damage to 600 from 500
             - Top speed to 400 m/s from 200
             - Launch speed to 50 m/s from 100
             - Acceleration to 150 m/s^2 from 600
@@ -61,7 +61,7 @@
                 <MissileAcceleration>150</MissileAcceleration>
                 <MissileInitialSpeed>50</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
-                <MissileExplosionDamage>800</MissileExplosionDamage>
+                <MissileExplosionDamage>600</MissileExplosionDamage>
                 <MissileTrailEffect>Smoke_Missile</MissileTrailEffect>
                 <MissileGravityEnabled>true</MissileGravityEnabled>
             </MissileProperties>
@@ -103,7 +103,7 @@
             - Projectile max range to 1600 meters from 1400
             - Projectile damage to 1800 from 4000
             - Projectile explosion FX disabled
-            - Explosion FX radius to 1.5 meters from 2
+            - Explosion FX radius to 0.4 meters from 2
             
         -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
@@ -121,7 +121,7 @@
             </BasicProperties>
             <MissileProperties>
                 <MissileMass>300</MissileMass>
-                <MissileExplosionRadius>1.5</MissileExplosionRadius>
+                <MissileExplosionRadius>0.4</MissileExplosionRadius>
                 <MissileModelName>Models\Weapons\MediumCalibreShell.mwm</MissileModelName>
                 <MissileAcceleration>0</MissileAcceleration>
                 <MissileInitialSpeed>500</MissileInitialSpeed>
@@ -137,9 +137,9 @@
         <!--
             Changes:
             - Armor piercing damage to 0 from 17000
-            - Explosive damage to 3000 from 0
+            - Explosive damage to 4000 from 0
             - Projectile speed to 400 m/s from 500
-            - Explosive splash radius to 1.8 meters from 3
+            - Explosive splash radius to 1.5 meters from 3
             - Projectile max range to 2400 meters from 2000
         -->
 		<Ammo xsi:type="MyObjectBuilder_MissileAmmoDefinition">
@@ -157,12 +157,12 @@
             </BasicProperties>
             <MissileProperties>
                 <MissileMass>800</MissileMass>
-                <MissileExplosionRadius>1.8</MissileExplosionRadius>
+                <MissileExplosionRadius>1.5</MissileExplosionRadius>
                 <MissileModelName>Models\Weapons\LargeCalibreShell.mwm</MissileModelName>
                 <MissileAcceleration>0</MissileAcceleration>
                 <MissileInitialSpeed>400</MissileInitialSpeed>
                 <MissileSkipAcceleration>false</MissileSkipAcceleration>
-                <MissileExplosionDamage>3000</MissileExplosionDamage>
+                <MissileExplosionDamage>4000</MissileExplosionDamage>
                 <!--<MissileHealthPool>17000</MissileHealthPool>-->
                 <MissileTrailEffect>LargeCalibreGun_Tracer</MissileTrailEffect>
                 <MissileGravityEnabled>true</MissileGravityEnabled>

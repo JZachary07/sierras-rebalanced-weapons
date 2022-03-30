@@ -194,7 +194,7 @@
             - Fire rate to 360 RPM from 120
             - Burst length to 8 rounds from 19
             - Shot deviation to 2 degrees from 0.1
-            - Reload time to 6 seconds from 4
+            - Reload time to 3 seconds from 4
         -->
         <Weapon>
             <Id>
@@ -208,7 +208,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>
-            <ReloadTime>6000</ReloadTime>
+            <ReloadTime>3000</ReloadTime>
         </Weapon>
         
         <!-- Small Grid Rocket Turret -->
@@ -237,7 +237,6 @@
             Changes:
             - Fire rate to 360 RPM from 90
             - Shot deviation to 1 from 0.5
-            - Reload time to 4.5 seconds from 4
         -->
         <Weapon>
             <Id>
@@ -250,7 +249,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="Missile200mm" />
             </AmmoMagazines>
-            <ReloadTime>4500</ReloadTime>
+            <ReloadTime>4000</ReloadTime>
         </Weapon>
 
         <!-- Small Grid Autocannon Fixed -->
