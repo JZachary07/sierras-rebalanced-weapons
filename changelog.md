@@ -222,7 +222,7 @@
 ### Large Grid Railgun
 - Projectile max range to 5000 meters from 2000
 - Projectile speed to 2500 /s from 2000
-- Reload time to 8 seconds from 4
+- Reload time to 9 seconds from 4
 - Shot delay to 1 second from 2
 - Capacity to 0.9 MWh from 0.5
 - Recharge draw to 360 from 38

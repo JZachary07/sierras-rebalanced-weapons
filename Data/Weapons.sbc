@@ -470,7 +470,7 @@
         <!-- Large Grid Railgun Fixed -->
         <!--
             Changes:
-            - Reload time to 8 seconds from 4
+            - Reload time to 9 seconds from 4
             - Shot delay to 1 second from 2
         -->
         <Weapon>
@@ -486,7 +486,7 @@
             <AmmoMagazines>
                 <AmmoMagazine Subtype="LargeRailgunAmmo" />
             </AmmoMagazines>
-            <ReloadTime>8000</ReloadTime>
+            <ReloadTime>9000</ReloadTime>
             <Effects>
                 <Effect Action="BeforeShoot" Dummy="barrel_001" Particle="Muzzle_Flash_RailgunLarge" Loop="false" InstantStop="false"/>
             </Effects>
