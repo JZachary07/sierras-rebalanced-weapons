@@ -95,6 +95,14 @@
         </Blueprint>
 
         <!-- Artillery Cannon Shell -->
+        <!--
+            Changes:
+            - Iron ingot cost to 80 from 60
+            - Nickel ingot cost to 12 from 8
+            - Magnesium ingot cost to 15 from 5
+            - Uranium ingot cost to 0 from 0.1
+            - Cobalt cost to 2.5 from 0
+        -->
         <Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
@@ -103,10 +111,10 @@
             <DisplayName>DisplayName_Item_LargeCalibreAmmo</DisplayName>
             <Icon>Textures\GUI\Icons\ammo\LargeCalibreShell.dds</Icon>
             <Prerequisites>
-                <Item Amount="60" TypeId="Ingot" SubtypeId="Iron" />
-                <Item Amount="8" TypeId="Ingot" SubtypeId="Nickel" />
-                <Item Amount="5" TypeId="Ingot" SubtypeId="Magnesium" />
-                <Item Amount="0.1" TypeId="Ingot" SubtypeId="Uranium" />
+                <Item Amount="80" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="12" TypeId="Ingot" SubtypeId="Nickel" />
+                <Item Amount="2.5" TypeId="Ingot" SubTypeId="Cobalt" />
+                <Item Amount="15" TypeId="Ingot" SubtypeId="Magnesium" />
             </Prerequisites>
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="LargeCalibreAmmo" />
             <BaseProductionTimeInSeconds>14</BaseProductionTimeInSeconds>

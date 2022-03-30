@@ -176,6 +176,7 @@
 - Shot deviation to 0.6 degrees from 0.35
 - Required construction component cost to 180 from 200
 - Metal grid cost to 50 from 30
+- Optional steel plate cost to 150 from 200
 - Targeting range to 1200 meters from 800
 
 ## Artillery Cannons
@@ -184,18 +185,32 @@
 - Projectile speed to 400 m/s from 500
 - Explosive splash radius to 1.5 meters from 3
 - Projectile max range to 2400 meters from 2000
+---
+- Iron ingot cost to 80 from 60
+- Nickel ingot cost to 12 from 8
+- Magnesium ingot cost to 15 from 5
+- Uranium ingot cost to 0 from 0.1
+- Cobalt cost to 2.5 from 0
+
+*Dev note: shell cost made less rare, but more expensive to reflect role as best-in-class module-killer.*
 
 ### Artillery Cannon
 - Reload to 4 seconds from 12
 - Shot deviation to 0.5 degrees from 0.15
 - Superconductor cost to 2 from 0
+- Optional steel plate cost to 100 from 150
+- Optional construction component cost to 50 from 0
 
 ### Artillery Cannon Turret
 - Fire rate to 90 RPM from 80
 - Reload to 4.5 seconds from 12
 - Shot deviation to 0.75 degrees from 0.3
 - Superconductor cost to 5 from 0
+- Required construction component cost to 150 from 300
+- Optional steel plate cost to 240 from 300
 - Targeting range to 1600 metres from 800
+
+*Dev note: component cost reductions reduce the effective health, making it actually possible to disable artillery with return fire. It can still survive two light railgun shells.*
 
 ## Railguns
 
@@ -236,6 +251,8 @@
 - Silicon ingot cost to 40 from 30
 - Gold ingot cost to 0.5 from 0
 - Uranium ingot cost to 12 from 1
+
+*Dev note: railgun changes make them insanely lethal. This makes them more expensive to field and to spam.*
 
 ### Small Grid Turret Controller
 - Targeting range to 1200 meters from 600

@@ -1138,6 +1138,7 @@
             - Idle rotation disabled by default
             - Required construction component cost to 180 from 200
             - Metal grid cost to 50 from 30
+            - Optional steel plate cost to 150 from 200
         -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
             <Id>
@@ -1163,7 +1164,7 @@
                 <Component Subtype="Motor" Count="20" />
                 <Component Subtype="Computer" Count="20" />
                 <Component Subtype="Construction" Count="80" />
-                <Component Subtype="SteelPlate" Count="200" />
+                <Component Subtype="SteelPlate" Count="1500" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -1235,6 +1236,8 @@
         <!--
             Changes:
             - Superconductor cost to 2 from 0
+            - Optional steel plate cost to 100 from 150
+            - Optional construction component cost to 50 from 0
         -->
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
@@ -1257,7 +1260,8 @@
                 <Component Subtype="MetalGrid" Count="20" />
                 <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="Computer" Count="5" />
-                <Component Subtype="SteelPlate" Count="150" />
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="SteelPlate" Count="100" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -1306,6 +1310,8 @@
             Changes:
             - Idle rotation disabled by default
             - Superconductor cost to 5 from 0
+            - Required construction component cost to 150 from 300
+            - Optional steel plate cost to 240 from 300
             - Targeting range to 1600 meters from 800
         -->
         <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
@@ -1326,14 +1332,14 @@
             <UseModelIntersection>true</UseModelIntersection>
             <Components>
                 <Component Subtype="SteelPlate" Count="150" />
-                <Component Subtype="Construction" Count="300" />
+                <Component Subtype="Construction" Count="150" />
                 <Component Subtype="Superconductor" Count="5" />
                 <Component Subtype="MetalGrid" Count="50" />
                 <Component Subtype="LargeTube" Count="40" />
                 <Component Subtype="Motor" Count="30" />
                 <Component Subtype="Computer" Count="20" />
                 <Component Subtype="Construction" Count="100" />
-                <Component Subtype="SteelPlate" Count="300" />
+                <Component Subtype="SteelPlate" Count="240" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
