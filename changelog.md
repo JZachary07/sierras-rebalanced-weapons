@@ -47,6 +47,7 @@
 - Optional construction component cost to 20 from 10
 - Bounding box from 3x3x3 to 1x3x1
   - This change is not backwards-compatible and requires duplicating the cubeblock definition while hiding the original in build menu.
+- Updated mounting points to attach on base
 
 ## Missiles
 - Launch velocity to 50 m/s from 100
@@ -117,6 +118,7 @@
 - Optional steel plate cost to 50 from 30
 - Bounding box from 3x3x3 to 1x3x1
   - This change is not backwards-compatible and requires duplicating the cubeblock definition while hiding the original in build menu.
+- Updated mounting points to attach on base
 
 *Dev note: buffed survivability against return fire and powerful volleys makes a good budget artillery.*
 
