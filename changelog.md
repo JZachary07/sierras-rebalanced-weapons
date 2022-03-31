@@ -1,4 +1,4 @@
-# Changelog - v0.1.0_ALPHA
+# Changelog - v1.0.0_BETA
 
 ## Gatling Guns
 - Max projectile range to 1000 meters from 800
