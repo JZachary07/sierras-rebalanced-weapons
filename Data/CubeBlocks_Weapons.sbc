@@ -2,6 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
         <!-- Small Grid Gatling Gun Fixed -->
+        <!-- ZERO CHANGE
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallGatlingGun</TypeId>
@@ -55,6 +56,7 @@
                 <string>Weapons</string>
             </TargetingGroups>
         </Definition>
+        -->
         
         <!-- Small Grid Gatling Turret -->
         <!--
@@ -348,6 +350,7 @@
         </Definition>
 
         <!-- Small Grid Rocket launcher Fixed -->
+        <!-- ZERO CHANGE
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallMissileLauncher</TypeId>
@@ -401,6 +404,7 @@
                 <string>Weapons</string>
             </TargetingGroups>
         </Definition>
+        -->
 
         <!-- Small Grid Reloadable Rocket Launcher Fixed -->
         <!--
@@ -821,6 +825,7 @@
         </Definition>
 
         <!-- Small Grid Autocannon Fixed -->
+        <!-- ZERO CHANGE
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallGatlingGun</TypeId>
@@ -874,6 +879,7 @@
                 <string>Weapons</string>
             </TargetingGroups>
         </Definition>
+        -->
 
         <!-- Small Grid Autocannon Turret-->
         <!--
@@ -984,6 +990,7 @@
         </Definition>
 
         <!-- Small Grid Assault Cannon Fixed -->
+        <!-- ZERO CHANGE
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallMissileLauncherReload</TypeId>
@@ -1036,6 +1043,7 @@
                 <string>Weapons</string>
             </TargetingGroups>
         </Definition>
+        -->
 
         <!-- Small Grid Assault Cannon Turret -->
         <!--
@@ -1479,6 +1487,7 @@
         </Definition>
 
         <!-- Large Grid Railgun Fixed -->
+        <!-- ZERO CHANGE
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallMissileLauncherReload</TypeId>
@@ -1537,6 +1546,7 @@
                 <string>Weapons</string>
             </TargetingGroups>
         </Definition>
+        -->
 
 	</CubeBlocks>
 </Definitions>

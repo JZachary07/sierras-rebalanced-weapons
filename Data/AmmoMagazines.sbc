@@ -33,6 +33,7 @@
         </AmmoMagazine>
 
 		<!-- Missile -->
+        <!-- ZERO CHANGE
 		<AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
@@ -58,6 +59,7 @@
             <MaximumOrderAmount>2000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
+        -->
 
 		<!-- Autocannon Magazine -->
         <!--
@@ -91,6 +93,7 @@
         </AmmoMagazine>
 
 		<!-- Assault Cannon Shell -->
+        <!-- ZERO CHANGE
 		<AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
@@ -116,8 +119,10 @@
             <MaximumOrderAmount>2000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
+        -->
 
 		<!-- Artillery Shell -->
+        <!-- ZERO CHANGE
 		<AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
@@ -143,8 +148,10 @@
             <MaximumOrderAmount>2000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
+        -->
 
 		<!-- Small Railgun Slug -->
+        <!-- ZERO CHANGE
 		<AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
@@ -170,8 +177,10 @@
             <MaximumOrderAmount>2000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
+        -->
 
 		<!-- Large Railgun Slug -->
+        <!--ZERO CHANGE
 		<AmmoMagazine>
             <Id>
                 <TypeId>AmmoMagazine</TypeId>
@@ -197,6 +206,7 @@
             <MaximumOrderAmount>2000</MaximumOrderAmount>
             <CanPlayerOrder>true</CanPlayerOrder>
         </AmmoMagazine>
+        -->
 
 	</AmmoMagazines>
 </Definitions>

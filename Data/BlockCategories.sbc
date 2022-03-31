@@ -264,6 +264,7 @@
                 <string>LandingGear/LargeBlockMagneticPlate</string>
                 <string>LandingGear/LargeBlockSmallMagneticPlate</string>
                 <!--
+                    Changes:
                     - SubtypeId to LargeGatlingTurretCompact from (null)
                     - SubtypeId to LargeMissileTurretCompact from (null)
                 -->

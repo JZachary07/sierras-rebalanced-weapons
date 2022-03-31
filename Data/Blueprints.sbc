@@ -78,6 +78,7 @@
         </Blueprint>
 
         <!-- Assault Cannon Shell -->
+        <!-- ZERO CHANGE
         <Blueprint>
             <Id>
                 <TypeId>BlueprintDefinition</TypeId>
@@ -93,6 +94,7 @@
             <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="MediumCalibreAmmo" />
             <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
         </Blueprint>
+        -->
 
         <!-- Artillery Cannon Shell -->
         <!--

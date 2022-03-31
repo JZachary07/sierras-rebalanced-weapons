@@ -2,6 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <Components>
         <!-- Steel Plate -->
+        <!-- ZERO CHANGE
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
@@ -30,8 +31,10 @@
             <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
+        -->
 
         <!-- Metal Grid -->
+        <!-- ZERO CHANGE
         <Component>
             <Id>
                 <TypeId>Component</TypeId>
@@ -60,6 +63,7 @@
             <MinimumAcquisitionAmount>125</MinimumAcquisitionAmount>
             <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
         </Component>
+        -->
 
         <!-- Bulletproof Glass -->
         <!--
