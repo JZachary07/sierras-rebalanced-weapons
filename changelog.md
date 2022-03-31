@@ -241,8 +241,14 @@
 - Shot delay to 1 second from 2
 - Capacity to 0.9 MWh from 0.5
 - Recharge draw to 360 from 38
+---
+- Optional steel plate cost to 100 from 300
+- Required steel plate cost to 300 from 50
+- Construction component cost to 250 from 150
+- Large steel tube cost to 120 from 60
+- Power cell cost to 160 from 100
 
-*Dev note: Changes to the capacitors reduce weapon cycle time to ~10 seconds from 49.5. Reload time now reflects this accurately.*
+*Dev note: Changes to the capacitors reduce weapon cycle time to ~10 seconds from 49.5. Reload time now reflects this accurately. The weapon's construction costs, weight, and fragility against incoming fire have all been increased to make counterattacks possible.*
 
 #### Large Railgun Slug
 - Production time to 20 seconds from 12

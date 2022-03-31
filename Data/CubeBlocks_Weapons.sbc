@@ -1487,7 +1487,14 @@
         </Definition>
 
         <!-- Large Grid Railgun Fixed -->
-        <!-- ZERO CHANGE
+        <!--
+            Changes:
+            - Optional steel plate cost to 100 from 300
+            - Required steel plate cost to 300 from 50
+            - Construction component cost to 250 from 150
+            - Large steel tube cost to 120 from 60
+            - Power cell cost to 160 from 100
+        -->
         <Definition xsi:type="MyObjectBuilder_WeaponBlockDefinition">
             <Id>
                 <TypeId>SmallMissileLauncherReload</TypeId>
@@ -1502,13 +1509,13 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\RailGun.mwm</Model>
             <Components>
-                <Component Subtype="SteelPlate" Count="50" />
-                <Component Subtype="Construction" Count="150" />
-                <Component Subtype="Superconductor" Count="150" />
-                <Component Subtype="LargeTube" Count="60" />
-                <Component Subtype="PowerCell" Count="100"/>
-                <Component Subtype="Computer" Count="100" />
                 <Component Subtype="SteelPlate" Count="300" />
+                <Component Subtype="Construction" Count="250" />
+                <Component Subtype="Superconductor" Count="150" />
+                <Component Subtype="LargeTube" Count="120" />
+                <Component Subtype="PowerCell" Count="160"/>
+                <Component Subtype="Computer" Count="100" />
+                <Component Subtype="SteelPlate" Count="100" />
             </Components>
             <CriticalComponent Subtype="Computer" Index="0" />
             <MountPoints>
@@ -1546,7 +1553,6 @@
                 <string>Weapons</string>
             </TargetingGroups>
         </Definition>
-        -->
 
 	</CubeBlocks>
 </Definitions>
