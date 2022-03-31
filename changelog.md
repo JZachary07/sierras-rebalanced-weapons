@@ -265,3 +265,6 @@
 - Target scanning angle to 45 degrees from 25
 - Bulletproof glass integrity to 90 from 60
 - All references to old large-grid gatling & missile turrets pointed to compacted variants in block groups & categories
+- All gas tanks explosion radius to 0
+- All gas tanks explosion damage multiplier to 0 from 0.00015
+- All ammos isExplosive to false from true

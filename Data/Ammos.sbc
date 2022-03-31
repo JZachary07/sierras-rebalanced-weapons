@@ -50,7 +50,7 @@
                 <DesiredSpeed>400</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
                 <MaxTrajectory>800</MaxTrajectory>
-                <IsExplosive>true</IsExplosive>
+                <IsExplosive>false</IsExplosive>
                 <BackkickForce>0</BackkickForce>
                 <PhysicalMaterial>Missile</PhysicalMaterial>
             </BasicProperties>
@@ -151,7 +151,7 @@
                 <DesiredSpeed>400</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
                 <MaxTrajectory>2400</MaxTrajectory>
-                <IsExplosive>true</IsExplosive>
+                <IsExplosive>false</IsExplosive>
                 <BackkickForce>150000</BackkickForce>
                 <PhysicalMaterial>LargeShell</PhysicalMaterial>
             </BasicProperties>
@@ -186,7 +186,7 @@
                 <DesiredSpeed>1200</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
                 <MaxTrajectory>3600</MaxTrajectory>
-                <IsExplosive>true</IsExplosive>
+                <IsExplosive>false</IsExplosive>
                 <BackkickForce>15000</BackkickForce>
                 <PhysicalMaterial>MediumShell</PhysicalMaterial>
             </BasicProperties>
@@ -219,7 +219,7 @@
                 <DesiredSpeed>2500</DesiredSpeed>
                 <SpeedVariance>0</SpeedVariance>
                 <MaxTrajectory>5000</MaxTrajectory>
-                <IsExplosive>true</IsExplosive>
+                <IsExplosive>false</IsExplosive>
                 <BackkickForce>120000</BackkickForce>
                 <PhysicalMaterial>LargeShell</PhysicalMaterial>
             </BasicProperties>
